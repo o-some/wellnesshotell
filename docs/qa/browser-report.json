@@ -1,30 +1,158 @@
 {
   "engine": "agent-browser Chromium, desktop emulation (not real iOS)",
   "widths": [
-    "{\"width\":360,\"height\":900,\"client\":360,\"scroll\":360,\"overflow\":false}",
-    "{\"width\":375,\"height\":900,\"client\":375,\"scroll\":375,\"overflow\":false}",
-    "{\"width\":390,\"height\":900,\"client\":390,\"scroll\":390,\"overflow\":false}",
-    "{\"width\":393,\"height\":900,\"client\":393,\"scroll\":393,\"overflow\":false}",
-    "{\"width\":430,\"height\":900,\"client\":430,\"scroll\":430,\"overflow\":false}",
-    "{\"width\":768,\"height\":900,\"client\":768,\"scroll\":768,\"overflow\":false}",
-    "{\"width\":1280,\"height\":900,\"client\":1280,\"scroll\":1280,\"overflow\":false}",
-    "{\"width\":1440,\"height\":900,\"client\":1440,\"scroll\":1440,\"overflow\":false}",
-    "{\"width\":1920,\"height\":900,\"client\":1920,\"scroll\":1920,\"overflow\":false}",
-    "{\"width\":2560,\"height\":900,\"client\":2560,\"scroll\":2560,\"overflow\":false}"
+    {
+      "width": 360,
+      "height": 900,
+      "client": 360,
+      "scroll": 360,
+      "overflow": false
+    },
+    {
+      "width": 375,
+      "height": 900,
+      "client": 375,
+      "scroll": 375,
+      "overflow": false
+    },
+    {
+      "width": 390,
+      "height": 900,
+      "client": 390,
+      "scroll": 390,
+      "overflow": false
+    },
+    {
+      "width": 393,
+      "height": 900,
+      "client": 393,
+      "scroll": 393,
+      "overflow": false
+    },
+    {
+      "width": 430,
+      "height": 900,
+      "client": 430,
+      "scroll": 430,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "height": 900,
+      "client": 768,
+      "scroll": 768,
+      "overflow": false
+    },
+    {
+      "width": 1280,
+      "height": 900,
+      "client": 1280,
+      "scroll": 1280,
+      "overflow": false
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "client": 1440,
+      "scroll": 1440,
+      "overflow": false
+    },
+    {
+      "width": 1920,
+      "height": 900,
+      "client": 1920,
+      "scroll": 1920,
+      "overflow": false
+    },
+    {
+      "width": 2560,
+      "height": 900,
+      "client": 2560,
+      "scroll": 2560,
+      "overflow": false
+    }
   ],
-  "images": "[{\"src\":\"assets/hero.webp\",\"loaded\":true},{\"src\":\"assets/lounge.webp\",\"loaded\":true},{\"src\":\"assets/tea.webp\",\"loaded\":true},{\"src\":\"assets/pool.webp\",\"loaded\":true},{\"src\":\"assets/sauna.webp\",\"loaded\":true},{\"src\":\"assets/massage.webp\",\"loaded\":true},{\"src\":\"assets/bath.webp\",\"loaded\":true},{\"src\":\"assets/suite.webp\",\"loaded\":true},{\"src\":\"assets/dinner.webp\",\"loaded\":true},{\"src\":\"assets/breakfast.webp\",\"loaded\":true},{\"src\":\"assets/forest.webp\",\"loaded\":true},{\"src\":\"assets/lake.webp\",\"loaded\":true},{\"src\":\"assets/room.webp\",\"loaded\":true},{\"src\":\"assets/room-sea.webp\",\"loaded\":true},{\"src\":\"assets/room-studio.webp\",\"loaded\":true},{\"src\":\"assets/tea.webp\",\"loaded\":true}]",
+  "images": [
+    {
+      "src": "assets/hero.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/lounge.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/tea.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/pool.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/sauna.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/massage.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/bath.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/suite.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/dinner.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/breakfast.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/forest.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/lake.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/room.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/room-sea.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/room-studio.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/tea.webp",
+      "loaded": true
+    }
+  ],
   "room_tab": "Ruhe Studio",
   "room_keyboard": "Licht Refugium",
   "room_selected": "Licht Refugium",
   "invalid_date": "Bitte wählen Sie eine Abreise nach Ihrer Anreise.",
   "valid_plan": "Individuelle Auszeit\n10. November 2026 – 13. November 2026\n3 Nächte · 2 Gäste\nZimmerwunsch: Licht Refugium\nIhre Wünsche: Sauna & Wärme",
   "download_exists": true,
-  "mobile_menu": "true",
-  "escape_closes_menu": "false",
+  "mobile_menu": true,
+  "escape_closes_menu": false,
   "gallery_next": 318,
   "vertical_scroll": 8822,
   "gallery_previous": 0,
-  "reduced_motion": "{\"media\":true,\"animation\":\"none\"}",
+  "reduced_motion": {
+    "media": true,
+    "animation": "none"
+  },
   "errors": "",
   "console": ""
 }

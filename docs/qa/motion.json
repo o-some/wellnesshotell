@@ -1,4 +1,12 @@
 {
-  "active": "\"{\\\"reduced\\\":false,\\\"transform\\\":\\\"\\\",\\\"animation\\\":\\\"hero-drift\\\"}\"\n",
-  "paused": "\"{\\\"pressed\\\":\\\"true\\\",\\\"transform\\\":\\\"none\\\",\\\"animation\\\":\\\"none\\\"}\"\n"
+  "active": {
+    "reduced": false,
+    "transform": "",
+    "animation": "hero-drift"
+  },
+  "paused": {
+    "pressed": true,
+    "transform": "none",
+    "animation": "none"
+  }
 }

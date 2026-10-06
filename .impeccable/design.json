@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-06T08:27:42.375229+00:00",
+  "generatedAt": "2026-10-06T08:39:52.328461+00:00",
   "title": "Design System: STILL — Nordic Light",
   "extensions": {
     "colorMeta": {
@@ -242,7 +242,7 @@
       {
         "name": "scene-parallax-bound",
         "value": "±13% of scene height",
-        "purpose": "Pool, nature, and evening image translation above 780px"
+        "purpose": "Pool, nature, evening, and fireside image translation above 780px; static on mobile or pause"
       }
     ],
     "breakpoints": [
@@ -262,7 +262,15 @@
         "name": "wide",
         "value": "1900px"
       }
-    ]
+    ],
+    "cinematicTransitions": {
+      "desktopOverlap": "96px",
+      "mobileOverlap": "48px",
+      "treatment": "Dusk and fireside overlap the preceding scene with a matching transparent-to-opaque top mask; no scroll hijacking.",
+      "mobileFiresideFocalPosition": "88% center",
+      "mobileFiresideShade": "linear-gradient(90deg,#152c36db,#152c36ab)",
+      "mobileFiresideShadePurpose": "Minimum alpha approximately 0.67 preserves supporting-copy contrast over the bright fireplace."
+    }
   },
   "components": [
     {
@@ -321,14 +329,14 @@
     {
       "name": "Motion control",
       "kind": "button",
-      "description": "Persistent lower-right page control; label and pressed state reflect manual pause or initial reduced-motion preference. Preview shows the resting control without page-position behavior.",
+      "description": "Persistent lower-right page control; label and pressed state reflect manual pause or initial reduced-motion preference. Pause also disables root smooth scrolling. Preview shows the resting control without page-position behavior.",
       "html": "<button class=\"ds-motion\" aria-pressed=\"false\">Bewegung pausieren</button>",
       "css": ".ds-motion{background:var(--paper,#f6f5f0);color:var(--ink,#24434b);border:1px solid var(--line,#b9c9c9);padding:10px 15px;min-height:42px;font:10px var(--sans,Arial,sans-serif);box-shadow:0 6px 25px #173d4712;cursor:pointer}.ds-motion:hover{background:white}.ds-motion:focus-visible{outline:3px solid var(--focus,#a57439);outline-offset:5px}@media(max-width:780px){.ds-motion{padding:8px 12px;min-height:38px;font-size:9px}}"
     }
   ],
   "narrative": {
     "northStar": "Nordic Light Spa",
-    "overview": "A quiet lakeside retreat between silver-blue water and warm limestone. Cormorant Garamond supplies editorial softness; Manrope keeps navigation and planning clear. The source direction is The Quiet Author Design 188, already selected for this project; its abstract typographic, color and material principles inform an independent STILL identity.\n\nFull-bleed landscapes alternate with generous paper-like sections and asymmetrical interior photographs. Dawn and evening scenes extend this atmosphere across a slow day, with larger editorial image-and-copy compositions between them. Depth stays soft, typography stays left aligned, and the relationship between cool water and warm interiors carries the identity. This document refreshes the accepted direction against `public/index.html`, `public/styles.css`, `public/cinematic.css`, and `public/app.js`; it does not propose a redesign.",
+    "overview": "A quiet lakeside retreat between silver-blue water and warm limestone. Cormorant Garamond supplies editorial softness; Manrope keeps navigation and planning clear. The source direction is The Quiet Author Design 188, already selected for this project; its abstract typographic, color and material principles inform an independent STILL identity.\n\nFull-bleed landscapes alternate with generous paper-like sections and asymmetrical interior photographs. Dawn, evening water, and fireside scenes extend this atmosphere across a slow day, with larger editorial image-and-copy compositions between them. Depth stays soft, typography stays left aligned, and the relationship between cool water and warm interiors carries the identity. This document refreshes the accepted direction against `public/index.html`, `public/styles.css`, `public/cinematic.css`, and `public/app.js`; it does not propose a redesign.",
     "keyCharacteristics": [
       "Quiet serif headlines with occasional italic phrases.",
       "Broad photographic scenes and restrained blue-green controls.",

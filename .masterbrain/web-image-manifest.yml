@@ -159,3 +159,12 @@ assets:
   role: illustrative hotel concept cinematic landscape, not a real property
   bytes: 194924
   sha256: 75554ab4bc2b8dd02508759d0f911d7fac5e67129a9c8467cca546ba019ce1c0
+- id: fireside
+  file: fireside.webp
+  source: OpenAI image generation, native tool
+  dimensions:
+  - 1672
+  - 941
+  role: illustrative hotel concept, not a real property
+  bytes: 180474
+  sha256: a232407ea31c22f6c46d5fff1308f7aa1265ba7ce492d72640b550f4b155d43b

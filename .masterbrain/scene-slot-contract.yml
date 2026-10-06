@@ -51,3 +51,6 @@ slots:
 - id: dusk
   identity_mode: none
   file: public/assets/dusk.webp
+- id: fireside
+  identity_mode: none
+  file: public/assets/fireside.webp

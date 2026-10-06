@@ -69,3 +69,14 @@
 }
 @media(max-width:390px){.ritual .image-frame{height:340px}.room-picture{height:350px}.gallery img{height:360px}.breathing-copy h2{font-size:58px}}
 @media(prefers-reduced-motion:reduce){.breathing-frame{clip-path:none}.breathing-frame img,.breathing-copy h2 span,.ritual .image-frame img{transform:none!important}}
+
+/* A continuous three-scene journey: woodland, warm water, fireside. */
+.cinema-flow{margin-top:-96px;-webkit-mask-image:linear-gradient(to bottom,transparent,#000 96px);mask-image:linear-gradient(to bottom,transparent,#000 96px)}
+#abend .evening-foot{bottom:151px}
+.fireside>img{object-position:60% center}
+.fireside-shade{background:linear-gradient(90deg,#152c36d9 0%,#152c3670 50%,#152c3610),linear-gradient(0deg,#152c36ab,transparent 50%)}
+@media(max-width:780px){.cinema-flow{margin-top:-48px;-webkit-mask-image:linear-gradient(to bottom,transparent,#000 48px);mask-image:linear-gradient(to bottom,transparent,#000 48px)}#abend .evening-foot{bottom:115px}.fireside>img{object-position:88% center}.fireside .evening-foot{bottom:115px}.fireside .evening-copy{padding-top:150px}}
+
+html.no-motion{scroll-behavior:auto!important}
+
+@media(max-width:780px){.fireside-shade{background:linear-gradient(90deg,#152c36db,#152c36ab)}}

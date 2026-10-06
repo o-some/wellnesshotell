@@ -7,8 +7,10 @@ Direction delegated by user: STILL, a quiet lakeside hotel concept. Build in sta
 
 Motion budget: 4 families: slow hero drift; scroll parallax on 3 media scenes; locally staggered reveal; hover/selection feedback. Native scroll, reduced-motion final state, pause control, no pointer hijacking. Shadows and gradient shading serve depth and contrast.
 
-Images: 8 generated concept photographs + 7 licensed Unsplash illustrative photos, local WebP and responsive derivatives. Image-generation skill used through native tool, no paid external API. Image content remains illustrative.
+Images: 10 generated concept photographs + 7 licensed Unsplash illustrative photos, local WebP and responsive derivatives. Image-generation skill used through native tool, no paid external API. Image content remains illustrative.
 
 Validation: mobile widths 360/375/390/393/430, desktop 1280/1440/1920 and 2560; keyboard, nav, planner validation, download, gallery controls, reduced motion, images, no overflow; independent visual review using screenshots; deployed revision/asset readback.
 
 Publish only public directory via GitHub Actions. Preserve factory and library read-only. Rollback via Git revert.
+
+Cinematic expansion: see `cinematic-expansion/plan.md` for the implemented morning/evening chapters and enlarged spa editorial sequence.

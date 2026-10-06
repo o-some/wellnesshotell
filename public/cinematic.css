@@ -1,0 +1,71 @@
+/* STILL — the day opens, the evening holds. Native scroll throughout. */
+.hero{height:100svh;min-height:740px;max-height:1200px}
+.hero-content{top:31%}
+.hero-content h1{font-size:clamp(64px,7.1vw,96px)}
+.hero-image{object-position:center 58%}
+.hero-foot{bottom:80px}
+.intro{padding-block:155px 165px}
+.breathing-scene{height:175svh;position:relative;background:var(--deep)}
+.breathing-stage{height:100svh;min-height:660px;position:sticky;top:0;overflow:hidden;color:var(--paper)}
+.breathing-frame{position:absolute;inset:0;overflow:hidden;clip-path:inset(var(--frame-inset,4%) var(--frame-inset,4%))}
+.breathing-frame img{width:100%;height:112%;position:absolute;top:-6%;object-fit:cover;object-position:50% 52%;transform:translate3d(0,var(--breathe-shift,0px),0) scale(1.025)}
+.cinema-shade{position:absolute;inset:0;background:linear-gradient(90deg,#122b36c9 0%,#122b366b 47%,#122b3612 100%),linear-gradient(0deg,#122b3677,transparent 35%)}
+.breathing-copy{position:relative;padding-top:clamp(130px,22svh,240px)}
+.breathing-copy h2{font-size:clamp(64px,6.5vw,96px);line-height:1.08;max-width:9ch}
+.breathing-copy h2 span{display:block;transform:translate3d(0,var(--word-shift,0px),0)}
+.breathing-copy h2 span:nth-child(2){margin-left:8%}
+.breathing-copy h2 span:nth-child(3){margin-left:16%}
+.breathing-copy p{font-size:15px;line-height:1.9;margin-top:34px;max-width:35ch}
+.scene-bottom{position:absolute;bottom:45px;left:0;right:0;display:flex;justify-content:space-between;align-items:center;font-size:12px}
+.scene-bottom a{display:flex;gap:22px;align-items:center;padding:12px 0}
+.spa{padding-top:140px;padding-bottom:140px}
+.pool-scene{height:90svh;min-height:620px;max-height:1050px}
+.pool-caption span{font-size:clamp(48px,5.5vw,80px)}
+.parallax-scene>img{inset:-15% 0;height:130%}
+.rituals{display:flex;flex-direction:column;gap:110px;padding-top:120px}
+.ritual{display:grid;grid-template-columns:1.25fr 1fr;align-items:center;gap:10%}
+.ritual:nth-child(2){grid-template-columns:1fr 1.25fr}
+.ritual:nth-child(2) .image-frame{grid-column:2;grid-row:1}
+.ritual:nth-child(2) .ritual-story{grid-column:1;grid-row:1;padding-left:7%}
+.ritual .image-frame{height:560px}
+.ritual .image-frame img{object-position:center 55%;position:relative;top:-5%;height:110%;transform:translate3d(0,var(--ritual-shift,0px),0) scale(1.02)}
+.ritual-title{margin-top:0;margin-bottom:25px}
+.ritual-title h3{font-size:clamp(38px,3.8vw,58px)}
+.ritual-title>span{display:none}
+.ritual p{font-size:15px;max-width:37ch;line-height:1.9;margin-bottom:30px}
+.ritual .text-link{font-size:12px}
+.rooms{padding-top:150px;padding-bottom:70px}
+.room-picture{height:650px}
+.slow-living{display:grid;grid-template-columns:1fr 1fr;gap:9%;padding-block:110px 150px}
+.slow-copy>p:not(.lead){font-size:14px;color:var(--muted);margin-bottom:30px}
+.slow-copy .lead{font-size:21px;line-height:1.75;margin-bottom:26px}
+.nature{height:90svh;min-height:680px;max-height:1050px}
+.nature-copy{padding-top:clamp(150px,23svh,280px)}
+.evening{min-height:780px;height:105svh;max-height:1150px;color:var(--paper);background:var(--deep)}
+.evening-shade{position:absolute;inset:0;background:linear-gradient(90deg,#102e39d6 0%,#102e3966 50%,#102e3910),linear-gradient(0deg,#102e39ab,transparent 50%)}
+.evening-copy{position:relative;padding-top:clamp(130px,20svh,250px)}
+.evening-copy h2{font-size:clamp(64px,6.7vw,96px);line-height:1.04}
+.evening-copy p{font-size:16px;line-height:1.9;margin:32px 0}
+.evening-copy .text-link{border-color:#b9c9c9;color:var(--paper)}
+.evening-foot{position:absolute;bottom:55px;left:0;right:0;display:flex;justify-content:space-between;font-size:12px}
+.arrangements{padding-block:150px}
+.gallery figure{flex-basis:39vw;max-width:620px}
+.gallery img{height:510px}
+.motion-toggle{position:fixed;right:22px;bottom:20px;z-index:25;background:var(--paper);color:var(--ink);border:1px solid var(--line);padding:10px 15px;min-height:42px;font-size:10px;box-shadow:0 6px 25px #173d4712}
+.hero-foot .motion-toggle:hover{background:white}
+.no-motion .breathing-frame{clip-path:none}
+.no-motion .breathing-frame img,.no-motion .breathing-copy h2 span,.no-motion .ritual .image-frame img{transform:none!important}
+@media(min-width:781px) and (max-width:1100px){.rituals{gap:80px}.ritual{gap:6%}.ritual .image-frame{height:470px}.room-picture{height:560px}.slow-living{gap:6%}.gallery img{height:440px}}
+@media(max-width:780px){
+ .hero{height:94svh;min-height:670px;max-height:950px}.hero-content h1{font-size:clamp(52px,10vw,76px)}.hero-foot{bottom:70px}.hero-content{top:29%}
+ .intro{padding-block:95px 90px}.breathing-scene{height:auto}.breathing-stage{position:relative;height:88svh;min-height:650px;max-height:900px}
+ .breathing-frame{clip-path:none}.breathing-frame img{transform:none;object-position:54% 50%}.breathing-copy{padding-top:125px}.breathing-copy h2{font-size:clamp(58px,12vw,78px)}.breathing-copy h2 span{transform:none}.breathing-copy p{font-size:13px;margin-top:28px}
+ .scene-bottom{bottom:27px;font-size:10px}.scene-bottom>span{max-width:18ch}.scene-bottom a{gap:10px}
+ .spa{padding-block:85px}.pool-scene{height:78svh;min-height:510px;max-height:780px}.pool-caption span{font-size:43px}
+ .rituals{padding-top:65px;gap:65px}.ritual,.ritual:nth-child(2){display:flex;flex-direction:column;gap:28px;align-items:stretch}.ritual .image-frame{height:390px}.ritual .image-frame img{height:100%;top:0;transform:none}.ritual:nth-child(2) .ritual-story{padding:0}.ritual:nth-child(2) .image-frame{width:92%;align-self:flex-end}.ritual:nth-child(3) .image-frame{width:92%}.ritual-title{margin:0 0 18px}.ritual-title h3{font-size:39px}.ritual p{font-size:14px;max-width:45ch;margin-bottom:22px}
+ .rooms{padding-block:85px 30px}.room-picture{height:420px}.slow-living{display:block;padding-block:55px 85px}.slow-copy{margin-top:30px}.slow-copy .lead{font-size:18px}.slow-copy>p:not(.lead){font-size:14px}
+ .nature{height:82svh;min-height:620px;max-height:900px}.nature-copy{padding-top:130px}.evening{height:95svh;min-height:720px;max-height:950px}.evening>img{object-position:58% center}.evening-copy{padding-top:130px}.evening-copy h2{font-size:clamp(59px,12vw,80px)}.evening-copy p{font-size:14px}.evening-foot{font-size:10px;bottom:89px;gap:20px}.evening-foot span{max-width:20ch}
+ .arrangements{padding-block:85px}.gallery figure{flex-basis:83vw}.gallery img{height:410px}.motion-toggle{right:12px;bottom:12px;padding:8px 12px;min-height:38px;font-size:9px}
+}
+@media(max-width:390px){.ritual .image-frame{height:340px}.room-picture{height:350px}.gallery img{height:360px}.breathing-copy h2{font-size:58px}}
+@media(prefers-reduced-motion:reduce){.breathing-frame{clip-path:none}.breathing-frame img,.breathing-copy h2 span,.ritual .image-frame img{transform:none!important}}

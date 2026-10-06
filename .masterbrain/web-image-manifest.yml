@@ -141,3 +141,21 @@ assets:
   - 1536
   - 1024
   sha256: b6bc28aeab7a7818f180d43081468d9ee3c421a4185937c99fc6d12dd7ccea2a
+- id: dawn
+  file: dawn.webp
+  source: OpenAI image generation, native tool
+  dimensions:
+  - 1672
+  - 941
+  role: illustrative hotel concept cinematic landscape, not a real property
+  bytes: 168638
+  sha256: 7b86d4fb70377f9a351f9f94d77f290833e5edb9bd8b2a785de2de13cfe0e97e
+- id: dusk
+  file: dusk.webp
+  source: OpenAI image generation, native tool
+  dimensions:
+  - 1672
+  - 941
+  role: illustrative hotel concept cinematic landscape, not a real property
+  bytes: 194924
+  sha256: 75554ab4bc2b8dd02508759d0f911d7fac5e67129a9c8467cca546ba019ce1c0

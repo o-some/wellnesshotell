@@ -4,9 +4,11 @@ families:
 - scroll-linked depth and reading progress
 - subtle reveals
 - interaction sheen and room transition
+- bounded cinematic aperture and editorial parallax
 native_scroll: true
 reduced_motion: true
 manual_pause: true
 mobile_parallax: false
 offscreen_pause: true
 hidden_tab_pause: true
+persistent_pause_control: true

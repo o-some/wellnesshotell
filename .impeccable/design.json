@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-06T07:52:46.085203+00:00",
+  "generatedAt": "2026-10-06T08:27:42.375229+00:00",
   "title": "Design System: STILL — Nordic Light",
   "extensions": {
     "colorMeta": {
@@ -166,6 +166,11 @@
         "name": "gallery-hover",
         "value": "0 20px 40px #1838421a",
         "purpose": "Desktop image hover"
+      },
+      {
+        "name": "motion-control",
+        "value": "0 6px 25px #173d4712",
+        "purpose": "Persistent paper pause control"
       }
     ],
     "motion": [
@@ -218,6 +223,26 @@
         "name": "dining-depth",
         "value": "clamp(-18px, scroll-derived shift, 18px)",
         "purpose": "Desktop-only dining image depth; zero when paused"
+      },
+      {
+        "name": "dawn-aperture",
+        "value": "4% → 0% inset",
+        "purpose": "Scroll-driven opening across the desktop 175svh dawn chapter; fully open on mobile or pause"
+      },
+      {
+        "name": "dawn-depth",
+        "value": "-18px → 18px; headline 0px → -18px",
+        "purpose": "Bounded image and headline shifts; static on mobile, pause, or reduced motion"
+      },
+      {
+        "name": "ritual-depth",
+        "value": "-22px to 22px",
+        "purpose": "Bounded editorial image shift above 780px; 110% image height and relative -5% top offset preserve coverage. Mobile uses 100% height and top:0; shift is zero on mobile or pause."
+      },
+      {
+        "name": "scene-parallax-bound",
+        "value": "±13% of scene height",
+        "purpose": "Pool, nature, and evening image translation above 780px"
       }
     ],
     "breakpoints": [
@@ -292,11 +317,18 @@
       "description": "Flat paper result with a top rule; no reservation claim.",
       "html": "<section class=\"ds-result\"><h3>Das klingt nach Ihrer Zeit.</h3><p>Nur ein Entwurf. Nicht versendet, keine Reservierung.</p></section>",
       "css": ".ds-result{padding:35px;background:var(--paper,#f6f5f0);border-top:2px solid #7a9ca3;color:var(--ink,#24434b)}.ds-result h3{font:400 38px/1.05 var(--serif,Georgia,serif);letter-spacing:-.035em;margin:12px 0 25px}.ds-result p{font:11px/1.7 var(--sans,Arial,sans-serif);color:var(--muted,#4f666c)}"
+    },
+    {
+      "name": "Motion control",
+      "kind": "button",
+      "description": "Persistent lower-right page control; label and pressed state reflect manual pause or initial reduced-motion preference. Preview shows the resting control without page-position behavior.",
+      "html": "<button class=\"ds-motion\" aria-pressed=\"false\">Bewegung pausieren</button>",
+      "css": ".ds-motion{background:var(--paper,#f6f5f0);color:var(--ink,#24434b);border:1px solid var(--line,#b9c9c9);padding:10px 15px;min-height:42px;font:10px var(--sans,Arial,sans-serif);box-shadow:0 6px 25px #173d4712;cursor:pointer}.ds-motion:hover{background:white}.ds-motion:focus-visible{outline:3px solid var(--focus,#a57439);outline-offset:5px}@media(max-width:780px){.ds-motion{padding:8px 12px;min-height:38px;font-size:9px}}"
     }
   ],
   "narrative": {
     "northStar": "Nordic Light Spa",
-    "overview": "A quiet lakeside retreat between silver-blue water and warm limestone. Cormorant Garamond supplies editorial softness; Manrope keeps navigation and planning clear. The source direction is The Quiet Author Design 188, already selected for this project; its abstract typographic, color and material principles inform an independent STILL identity.\n\nFull-bleed landscapes alternate with generous paper-like sections and asymmetrical interior photographs. Depth stays soft, typography stays left aligned, and the relationship between cool water and warm interiors carries the identity. This document refreshes the accepted direction against `public/index.html`, `public/styles.css`, and `public/app.js`; it does not propose a redesign.",
+    "overview": "A quiet lakeside retreat between silver-blue water and warm limestone. Cormorant Garamond supplies editorial softness; Manrope keeps navigation and planning clear. The source direction is The Quiet Author Design 188, already selected for this project; its abstract typographic, color and material principles inform an independent STILL identity.\n\nFull-bleed landscapes alternate with generous paper-like sections and asymmetrical interior photographs. Dawn and evening scenes extend this atmosphere across a slow day, with larger editorial image-and-copy compositions between them. Depth stays soft, typography stays left aligned, and the relationship between cool water and warm interiors carries the identity. This document refreshes the accepted direction against `public/index.html`, `public/styles.css`, `public/cinematic.css`, and `public/app.js`; it does not propose a redesign.",
     "keyCharacteristics": [
       "Quiet serif headlines with occasional italic phrases.",
       "Broad photographic scenes and restrained blue-green controls.",

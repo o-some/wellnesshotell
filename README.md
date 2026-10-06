@@ -16,8 +16,8 @@ GitHub ist die alleinige Codequelle und GitHub Pages der einzige Veröffentlichu
 
 Designreferenz: The Quiet Author, **188 – Nordic Light Spa**. Eigenständige Umsetzung als STILL, mit Cormorant Garamond, Manrope, Wasserblau, warmem Weiß und Naturmaterialien.
 
-- 15 unterschiedliche hochwertige Bildmotive: 8 eigens erzeugte Konzeptbilder, 7 Unsplash-Inspirationen; alle lokal, mit WebP-Ableitungen und Herkunftsnachweis.
-- Ruhige Hero-Bewegung, Dunst, Desktop-Parallax, dezente Reveals und Hoverzustände; Bewegungspause und Reduced-Motion-Unterstützung.
+- 17 unterschiedliche hochwertige Bildmotive: 10 eigens erzeugte Konzeptbilder, 7 Unsplash-Inspirationen; alle lokal, mit WebP-Ableitungen und Herkunftsnachweis.
+- Cineastische Morgen- und Abendszenen, große Spa-Bildstrecken, ruhige Hero-Bewegung, Desktop-Parallax, scrollgesteuerte Bildöffnung und dezente Hoverzustände; Bewegungspause und Reduced-Motion-Unterstützung.
 - Drei Zimmeransichten mit Tastaturbedienung, Reiseideen, horizontale Galerie, FAQ und Reiseplaner mit Datumskontrolle und lokalem Textdownload.
 - Responsiv geprüft von 360 bis 2560 CSS-Pixeln. Statische Auslieferung ohne Runtime-Abhängigkeiten oder Analytics.
 

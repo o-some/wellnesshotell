@@ -1,0 +1,129 @@
+{
+  "widths": [
+    {
+      "width": 360,
+      "scrollWidth": 360
+    },
+    {
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "width": 768,
+      "scrollWidth": 768
+    },
+    {
+      "width": 1024,
+      "scrollWidth": 1024
+    },
+    {
+      "width": 1280,
+      "scrollWidth": 1280
+    },
+    {
+      "width": 1440,
+      "scrollWidth": 1440
+    },
+    {
+      "width": 1920,
+      "scrollWidth": 1920
+    },
+    {
+      "width": 2560,
+      "scrollWidth": 2560
+    }
+  ],
+  "images": [
+    {
+      "src": "assets/hero.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/lounge.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/tea.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/dawn.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/pool.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/sauna.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/massage.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/bath.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/suite.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/dinner.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/breakfast-v2.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/forest.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/dusk.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/lake.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/room.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/room-sea.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/room-studio.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/tea.webp",
+      "loaded": true
+    }
+  ],
+  "reduced": {
+    "frame": "none",
+    "depth": "none",
+    "evening": "none"
+  },
+  "active": {
+    "frame": "inset(2.08%)",
+    "depth": "matrix(1.025, 0, 0, 1.025, 0, -0.72)"
+  },
+  "paused": {
+    "frame": "none",
+    "depth": "none"
+  },
+  "room": "Ruhe Studio",
+  "roomInPlanner": "Ruhe Studio",
+  "planner": "true",
+  "menuOpen": "true",
+  "menuClosed": true,
+  "errors": ""
+}

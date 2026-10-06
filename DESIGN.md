@@ -14,7 +14,7 @@ colors:
 typography:
   display:
     fontFamily: "Still Serif, Georgia, serif"
-    fontSize: "clamp(64px, 6.65vw, 96px)"
+    fontSize: "clamp(64px, 7.1vw, 96px)"
     fontWeight: 400
     lineHeight: 1.05
     letterSpacing: "-.035em"
@@ -73,7 +73,7 @@ components:
 
 A quiet lakeside retreat between silver-blue water and warm limestone. Cormorant Garamond supplies editorial softness; Manrope keeps navigation and planning clear. The source direction is The Quiet Author Design 188, already selected for this project; its abstract typographic, color and material principles inform an independent STILL identity.
 
-Full-bleed landscapes alternate with generous paper-like sections and asymmetrical interior photographs. Depth stays soft, typography stays left aligned, and the relationship between cool water and warm interiors carries the identity. This document refreshes the accepted direction against `public/index.html`, `public/styles.css`, and `public/app.js`; it does not propose a redesign.
+Full-bleed landscapes alternate with generous paper-like sections and asymmetrical interior photographs. Dawn and evening scenes extend this atmosphere across a slow day, with larger editorial image-and-copy compositions between them. Depth stays soft, typography stays left aligned, and the relationship between cool water and warm interiors carries the identity. This document refreshes the accepted direction against `public/index.html`, `public/styles.css`, `public/cinematic.css`, and `public/app.js`; it does not propose a redesign.
 
 **Key Characteristics:**
 - Quiet serif headlines with occasional italic phrases.
@@ -110,11 +110,15 @@ At the narrow breakpoint, the hero scales between (52–76px), section headings 
 
 The main container has a maximum width of (1376px), with (64px) side gutters on desktop, (36px) below (1100px), and (20px) below (780px). Standard vertical section spacing is recorded in frontmatter; scene-specific spacing remains local.
 
-Desktop layouts use deliberate unequal pairs: rooms (1.5fr / 1fr), dining (1.06fr / 1fr), and the planner (1fr / 1.12fr). Rituals form three columns. These become single columns at (780px). The introduction keeps an overlapping small image anchored to a taller image; the gallery remains horizontally scrollable with native scroll snapping on all sizes.
+Desktop layouts use deliberate unequal pairs: rooms (1.5fr / 1fr), dining (1.06fr / 1fr), and the planner (1fr / 1.12fr). Rituals are stacked editorial rows with unequal image/copy columns (1.25fr / 1fr); the middle row reverses their positions. A two-column slow-living passage separates rooms from dining. These become single columns at (780px). The introduction keeps an overlapping small image anchored to a taller image; the gallery remains horizontally scrollable with native scroll snapping on all sizes.
 
-Additional adjustments exist at (390px) and from (1900px). The desktop hero is bounded between (720px) and (930px); the narrow hero uses (88svh) with (650–900px) bounds. Image crops use cover framing, with individual focal positions where needed.
+Additional adjustments exist at (390px) and from (1900px). The desktop hero uses (100svh), bounded between (740px) and (1200px); the narrow hero uses (94svh) with (670–950px) bounds. Image crops use cover framing, with individual focal positions where needed.
 
 The desktop dining photograph spans both the copy and breakfast rows, producing one continuous composition without an empty lower-left cell. Its minimum height is (650px), or (640px) at the intermediate breakpoint. Breakfast fills the right column with a (265px) image, reduced to (235px) at the intermediate breakpoint. On narrow screens the order is copy, main photograph, breakfast; the main image becomes (380px) tall and breakfast sits right aligned at (86%) width with a (230px) image.
+
+Desktop ritual images are (560px) tall, room images (650px), and gallery images (510px), with gallery figures at (39vw) up to (620px). At the intermediate breakpoint these heights become (470px), (560px), and (440px); narrow heights are (390px), (420px), and (410px), with gallery figures at (83vw). Below (390px), heights reduce to (340px), (350px), and (360px).
+
+The dawn chapter occupies (175svh) around a sticky (100svh) stage, whose minimum height is (660px). On narrow screens it becomes a normal-flow (88svh) scene, bounded at (650–900px), with a fully open frame. The evening scene uses (105svh), bounded at (780–1150px); narrow sizing is (95svh), bounded at (720–950px). Its narrow footer sits (89px) above the bottom to clear the persistent pause control.
 
 Homepage strategy and its particular section sequence are recorded separately in `.impeccable/homepage.md`.
 
@@ -126,7 +130,7 @@ The floating strip uses (0 20px 50px #233e4b14), the nested photograph (0 20px 3
 
 Atmospheric motion combines a (24s) alternating hero drift, (35s) mist movement, a (22s) dining daylight gradient, and an (18s) pool reflection. Dining daylight slows to (28s) on narrow screens, where pool reflections are hidden. IntersectionObserver pauses ambient scenes outside the viewport; page visibility pauses CSS animation loops in hidden tabs.
 
-Reveals take (1.2s) using the shared easing; ritual image hover takes (1.3s). Pool and nature parallax run only above (780px) through passive scrolling and requestAnimationFrame. Dining adds a separately clamped (-18px to 18px) depth shift on its slightly enlarged main image. Gallery hover lifts the image (-5px) with a (1.2s) transition on desktop. Reduced-motion CSS disables animations and transitions, removes image transforms, and hides button sheen. The visible pause control also stops pseudo-element motion and cancels an active room-image animation. Content starts visible before enhancement.
+Reveals take (1.2s) using the shared easing; ritual image hover takes (1.3s). Pool, nature, and evening parallax run only above (780px), bounded to (±13%) of the scene height, through passive scrolling and requestAnimationFrame. Dining adds a separately clamped (-18px to 18px) depth shift on its slightly enlarged main image. Gallery hover lifts the image (-5px) with a (1.2s) transition on desktop. Reduced-motion CSS disables animations and transitions, removes image transforms, and hides button sheen. The fixed pause control also stops pseudo-element motion and cancels an active room-image animation. The dawn frame opens from (4%) inset to zero with scroll; its image shifts between (-18px) and (18px), while the staggered headline rises by up to (18px). Ritual depth is bounded to (±22px); images use (110%) height with a relative (-5%) top offset to keep the frame covered throughout the shift. Narrow images return to (100%) height and zero top offset. These scroll-driven effects are static on narrow screens and under manual pause; reduced-motion CSS also removes their transforms and aperture. The desktop sticky stage remains sticky under reduced motion. Existing hero and daylight ambience may still run on mobile unless paused or reduced motion is requested. Content starts visible before enhancement.
 
 ## Shapes
 
@@ -144,7 +148,11 @@ The header starts over the hero and becomes a fixed paper surface after (90px) o
 
 ### Photographic articles and gallery
 
-Ritual articles have unboxed copy beneath a cropped image, with restrained image enlargement on hover. The native horizontal gallery exposes circular previous/next controls, a five-item counter, keyboard arrows, and disabled end controls. Images have descriptive alternatives and captions; the source set contains 15 distinct images, combining eight generated images and seven licensed stock images.
+Ritual articles pair large cropped images with unboxed, longer-form copy in alternating desktop rows; mobile stacks image above copy with slight width variation. The existing restrained image enlargement on hover remains. The native horizontal gallery exposes circular previous/next controls, a five-item counter, keyboard arrows, and disabled end controls. Images have descriptive alternatives and captions; the source set contains 17 distinct images, combining ten generated images and seven licensed stock images.
+
+### Motion control
+
+A paper-and-ink pause button stays fixed at the lower right throughout the page, with a thin mineral border and soft shadow (0 6px 25px #173d4712). It sits (22px) from the right and (20px) from the bottom on desktop, or (12px) from both edges on narrow screens. Its label and pressed state switch together; it starts paused when the operating system requests reduced motion. The preference is held for the current page session, without persistent storage.
 
 ### Room selection
 

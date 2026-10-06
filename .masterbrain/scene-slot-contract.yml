@@ -45,3 +45,9 @@ slots:
 - id: room-sea
   identity_mode: none
   file: public/assets/room-sea.webp
+- id: dawn
+  identity_mode: none
+  file: public/assets/dawn.webp
+- id: dusk
+  identity_mode: none
+  file: public/assets/dusk.webp

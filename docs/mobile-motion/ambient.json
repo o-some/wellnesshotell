@@ -1,0 +1,23 @@
+{
+  "abend": {
+    "view": true,
+    "name": "evening-breath",
+    "state": "running",
+    "image": 390
+  },
+  "geborgen": {
+    "view": true,
+    "name": "evening-breath",
+    "state": "running",
+    "image": 390
+  },
+  "paused": {
+    "pool": "none",
+    "fire": "none"
+  },
+  "reduced": {
+    "pool": "none",
+    "fire": "none"
+  },
+  "errors": ""
+}

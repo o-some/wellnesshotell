@@ -1,0 +1,155 @@
+{
+  "widths": [
+    {
+      "inner": 360,
+      "scroll": 360
+    },
+    {
+      "inner": 390,
+      "scroll": 390
+    },
+    {
+      "inner": 430,
+      "scroll": 430
+    },
+    {
+      "inner": 768,
+      "scroll": 768
+    },
+    {
+      "inner": 1024,
+      "scroll": 1024
+    }
+  ],
+  "scenes": {
+    "nature": [
+      {
+        "transform": "matrix(1, 0, 0, 1, 0, -13.898)",
+        "covered": true
+      },
+      {
+        "transform": "matrix(1, 0, 0, 1, 0, 11.092)",
+        "covered": true
+      }
+    ],
+    "dusk": [
+      {
+        "transform": "matrix(1, 0, 0, 1, 0, -18.9599)",
+        "covered": true
+      },
+      {
+        "transform": "matrix(1, 0, 0, 1, 0, 9.60006)",
+        "covered": true
+      }
+    ],
+    "fireside": [
+      {
+        "transform": "matrix(1, 0, 0, 1, 0, -19.0046)",
+        "covered": true
+      },
+      {
+        "transform": "matrix(1, 0, 0, 1, 0, 9.55544)",
+        "covered": true
+      }
+    ]
+  },
+  "dawn": {
+    "-180": {
+      "crop": "inset(1.27877%)",
+      "depth": "matrix(1.03, 0, 0, 1.03, 0, -2.60033)"
+    },
+    "220": {
+      "crop": "inset(0.724169%)",
+      "depth": "matrix(1.03, 0, 0, 1.03, 0, 5.46663)"
+    }
+  },
+  "images": [
+    {
+      "src": "assets/hero.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/lounge.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/tea.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/dawn.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/pool.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/sauna.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/massage.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/bath.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/suite.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/dinner.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/breakfast-v2.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/forest.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/dusk.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/fireside.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/lake.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/room.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/room-sea.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/room-studio.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/tea.webp",
+      "loaded": true
+    }
+  ],
+  "paused": {
+    "image": "none",
+    "crop": "none",
+    "pressed": "true"
+  },
+  "reduced": {
+    "image": "none",
+    "crop": "none",
+    "pressed": "true"
+  },
+  "errors": ""
+}

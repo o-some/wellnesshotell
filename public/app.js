@@ -4,7 +4,26 @@ const header=$('#header'),menu=$('.menu-toggle'),nav=$('#navigation');
 function closeMenu(){nav.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.setAttribute('aria-label','Menü öffnen')}
 menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';nav.classList.toggle('open',open);menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'Menü schließen':'Menü öffnen')});$$('a',nav).forEach(a=>a.addEventListener('click',closeMenu));document.addEventListener('keydown',e=>{if(e.key==='Escape'&&nav.classList.contains('open')){closeMenu();menu.focus()}});matchMedia('(min-width:781px)').addEventListener('change',closeMenu);
 const motion=$('.motion-toggle');function setMotion(){document.documentElement.classList.toggle('no-motion',paused);motion.setAttribute('aria-pressed',String(paused));motion.textContent=paused?'Bewegung fortsetzen':'Bewegung pausieren';motion.setAttribute('aria-label',motion.textContent);if(paused)document.getAnimations().forEach(a=>{if(a.effect?.target?.id==='room-image')a.cancel()})}motion.addEventListener('click',()=>{paused=!paused;setMotion()});reduced.addEventListener('change',e=>{paused=e.matches;setMotion()});setMotion();
-let ticking=false;const parallax=$$('[data-parallax]'),breathing=$('.breathing-scene'),ritualFrames=$$('.ritual .image-frame');function onScroll(){header.classList.toggle('scrolled',scrollY>90);document.documentElement.style.setProperty('--reading-progress',String(scrollY/Math.max(1,document.documentElement.scrollHeight-innerHeight)));const dining=$('#genuss');if(dining){const d=dining.getBoundingClientRect();const shift=paused||innerWidth<=780?0:Math.max(-18,Math.min(18,(innerHeight/2-d.top-d.height/2)*.045));dining.style.setProperty('--dining-shift',shift+'px')}if(!paused&&innerWidth>780){for(const el of parallax){const r=el.parentElement.getBoundingClientRect();if(r.bottom>0&&r.top<innerHeight)el.style.transform=`translate3d(0,${Math.max(-r.height*.13,Math.min(r.height*.13,(innerHeight/2-r.top-r.height/2)*Number(el.dataset.parallax)))}px,0)`}}updateCinematic();ticking=false}addEventListener('scroll',()=>{if(!ticking){requestAnimationFrame(onScroll);ticking=true}},{passive:true});onScroll();
+let ticking=false;
+const parallax=$$('[data-parallax]'),breathing=$('.breathing-scene'),ritualFrames=$$('.ritual .image-frame');
+function onScroll(){
+ header.classList.toggle('scrolled',scrollY>90);
+ document.documentElement.style.setProperty('--reading-progress',String(scrollY/Math.max(1,document.documentElement.scrollHeight-innerHeight)));
+ const dining=$('#genuss');
+ if(dining){const d=dining.getBoundingClientRect();const shift=paused||innerWidth<=780?0:Math.max(-18,Math.min(18,(innerHeight/2-d.top-d.height/2)*.045));dining.style.setProperty('--dining-shift',shift+'px')}
+ if(!paused){
+  const mobileFactor=innerWidth<=780 ? .35 : 1;
+  for(const el of parallax){
+   const r=el.parentElement.getBoundingClientRect();
+   if(r.bottom>0&&r.top<innerHeight){
+    const distance=(innerHeight/2-r.top-r.height/2)*Number(el.dataset.parallax)*mobileFactor;
+    el.style.transform=`translate3d(0,${Math.max(-r.height*.13,Math.min(r.height*.13,distance))}px,0)`;
+   }
+  }
+ }
+ updateCinematic();ticking=false;
+}
+addEventListener('scroll',()=>{if(!ticking){requestAnimationFrame(onScroll);ticking=true}},{passive:true});onScroll();
 if('IntersectionObserver'in window){const observer=new IntersectionObserver(entries=>{entries.forEach(entry=>{if(entry.isIntersecting){entry.target.classList.remove('pending');observer.unobserve(entry.target)}})},{threshold:.12});$$('.reveal').forEach(el=>{if(el.getBoundingClientRect().top>innerHeight)el.classList.add('pending');observer.observe(el)})}
 let toastTimer;function toast(text){$('#toast').textContent=text;$('#toast').classList.add('visible');clearTimeout(toastTimer);toastTimer=setTimeout(()=>$('#toast').classList.remove('visible'),3200)}
 const rooms={see:{name:'See Suite',image:'suite',alt:'Suite mit hellem Leinenbett und weitem Blick auf den See',text:'Aufwachen mit Weitblick. Barfuß zum Fenster. Und erst einmal nichts vorhaben. Unsere großzügige Wohnidee verbindet sanfte Naturtöne mit der Ruhe des Wassers.',features:['Weite & Wasserblick','Warmes Holz & weiches Leinen','Raum für gemeinsame Zeit']},ruhe:{name:'Ruhe Studio',image:'room-studio',alt:'Ruhiges Studio mit gemütlichem Bett und Sitzbereich',text:'Ein Lieblingsplatz nur für Sie. Zurückhaltende Farben, ein gutes Buch und das Gefühl, angekommen zu sein. Ein kompakter Rückzugsort für eine bewusste Pause.',features:['Gemütlicher Wohn- und Schlafbereich','Ein Platz zum Lesen','Die kleine Auszeit für sich']},licht:{name:'Licht Refugium',image:'room-sea',alt:'Lichtes Zimmer mit Blick auf das Wasser',text:'Den Vorhang öffnen und den Tag hereinlassen. Ein lichtes Zimmerkonzept, in dem der Blick nach draußen gehört und der Morgen gerne etwas länger dauern darf.',features:['Licht & offener Ausblick','Sanfte Farben und klare Linien','Zeit für einen langsamen Morgen']}};let selectedRoom='see';
@@ -25,20 +44,20 @@ addEventListener('resize',()=>{if(innerWidth<=780)parallax.forEach(el=>el.style.
 
 // One scroll clock drives the cinematic chapter and bounded editorial depth.
 function updateCinematic(){
- const still=paused||innerWidth<=780;
+ const mobile=innerWidth<=780,still=paused;
  if(breathing){
   const r=breathing.getBoundingClientRect();
   if(r.bottom>0&&r.top<innerHeight){
-   const progress=Math.max(0,Math.min(1,-r.top/Math.max(1,r.height-innerHeight)));
-   breathing.style.setProperty('--frame-inset',still?'0%':(4*(1-progress))+'%');
-   breathing.style.setProperty('--breathe-shift',still?'0px':(progress*36-18)+'px');
-   breathing.style.setProperty('--word-shift',still?'0px':(-progress*18)+'px');
+   const progress=Math.max(0,Math.min(1,mobile?(innerHeight-r.top)/(innerHeight+r.height):-r.top/Math.max(1,r.height-innerHeight)));
+   breathing.style.setProperty('--frame-inset',still?'0%':((mobile?2.2:4)*(1-progress))+'%');
+   breathing.style.setProperty('--breathe-shift',still?'0px':(progress*(mobile?32:36)-(mobile?16:18))+'px');
+   breathing.style.setProperty('--word-shift',still||mobile?'0px':(-progress*18)+'px');
   }
  }
  for(const el of ritualFrames){
   const r=el.getBoundingClientRect();
   if(r.bottom>0&&r.top<innerHeight){
-   const shift=still?0:Math.max(-22,Math.min(22,(innerHeight/2-r.top-r.height/2)*.05));
+   const shift=still||mobile?0:Math.max(-22,Math.min(22,(innerHeight/2-r.top-r.height/2)*.05));
    el.style.setProperty('--ritual-shift',shift+'px');
   }
  }

@@ -226,13 +226,13 @@
       },
       {
         "name": "dawn-aperture",
-        "value": "4% → 0% inset",
-        "purpose": "Scroll-driven opening across the desktop 175svh dawn chapter; fully open on mobile or pause"
+        "value": "4% → 0% desktop; 2.2% → 0% mobile",
+        "purpose": "Scroll-driven opening of the lake image; static under pause/reduced motion"
       },
       {
         "name": "dawn-depth",
-        "value": "-18px → 18px; headline 0px → -18px",
-        "purpose": "Bounded image and headline shifts; static on mobile, pause, or reduced motion"
+        "value": "desktop -18px → 18px; mobile -16px → 16px",
+        "purpose": "Bounded image depth; mobile headline stays still"
       },
       {
         "name": "ritual-depth",
@@ -241,8 +241,8 @@
       },
       {
         "name": "scene-parallax-bound",
-        "value": "±13% of scene height",
-        "purpose": "Pool, nature, evening, and fireside image translation above 780px; static on mobile or pause"
+        "value": "±13% of scene height; mobile strength 35%",
+        "purpose": "Pool, nature, evening, and fireside image travel on both desktop and mobile; static under pause/reduced motion"
       }
     ],
     "breakpoints": [

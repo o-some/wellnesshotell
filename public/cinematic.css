@@ -59,7 +59,7 @@
 @media(max-width:780px){
  .hero{height:94svh;min-height:670px;max-height:950px}.hero-content h1{font-size:clamp(52px,10vw,76px)}.hero-foot{bottom:70px}.hero-content{top:29%}
  .intro{padding-block:95px 90px}.breathing-scene{height:auto}.breathing-stage{position:relative;height:88svh;min-height:650px;max-height:900px}
- .breathing-frame{clip-path:none}.breathing-frame img{transform:none;object-position:54% 50%}.breathing-copy{padding-top:125px}.breathing-copy h2{font-size:clamp(58px,12vw,78px)}.breathing-copy h2 span{transform:none}.breathing-copy p{font-size:13px;margin-top:28px}
+ .breathing-frame{clip-path:inset(var(--frame-inset,2.2%))}.breathing-frame img{transform:translate3d(0,var(--breathe-shift,0px),0) scale(1.03);object-position:54% 50%}.breathing-copy{padding-top:125px}.breathing-copy h2{font-size:clamp(58px,12vw,78px)}.breathing-copy h2 span{transform:none}.breathing-copy p{font-size:13px;margin-top:28px}
  .scene-bottom{bottom:27px;font-size:10px}.scene-bottom>span{max-width:18ch}.scene-bottom a{gap:10px}
  .spa{padding-block:85px}.pool-scene{height:78svh;min-height:510px;max-height:780px}.pool-caption span{font-size:43px}
  .rituals{padding-top:65px;gap:65px}.ritual,.ritual:nth-child(2){display:flex;flex-direction:column;gap:28px;align-items:stretch}.ritual .image-frame{height:390px}.ritual .image-frame img{height:100%;top:0;transform:none}.ritual:nth-child(2) .ritual-story{padding:0}.ritual:nth-child(2) .image-frame{width:92%;align-self:flex-end}.ritual:nth-child(3) .image-frame{width:92%}.ritual-title{margin:0 0 18px}.ritual-title h3{font-size:39px}.ritual p{font-size:14px;max-width:45ch;margin-bottom:22px}
@@ -80,3 +80,13 @@
 html.no-motion{scroll-behavior:auto!important}
 
 @media(max-width:780px){.fireside-shade{background:linear-gradient(90deg,#152c36db,#152c36ab)}}
+
+/* A slow breath of reflected light keeps the two evening scenes alive on touch screens. */
+@media(max-width:780px){
+ #abend:after,.fireside:after{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;opacity:.24;animation:evening-breath 16s ease-in-out infinite alternate;animation-play-state:paused}
+ #abend:after{background:radial-gradient(ellipse 75% 40% at 65% 75%,#e5e9d51c,transparent 72%)}
+ #abend.in-view:after{animation-play-state:running}
+ .fireside:after{background:radial-gradient(ellipse 60% 55% at 83% 54%,#f7b97729,transparent 72%)}
+ #abend .evening-copy,#abend .evening-foot,.fireside .evening-copy,.fireside .evening-foot{z-index:2}
+}
+@keyframes evening-breath{from{opacity:.16;transform:translate3d(-1%,0,0) scale(1)}to{opacity:.42;transform:translate3d(2%,-1%,0) scale(1.04)}}

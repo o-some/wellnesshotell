@@ -110,19 +110,23 @@ At the narrow breakpoint, the hero scales between (52–76px), section headings 
 
 The main container has a maximum width of (1376px), with (64px) side gutters on desktop, (36px) below (1100px), and (20px) below (780px). Standard vertical section spacing is recorded in frontmatter; scene-specific spacing remains local.
 
-Desktop layouts use deliberate unequal pairs: rooms (1.5fr / 1fr), dining (1.15fr / 1fr), and the planner (1fr / 1.12fr). Rituals form three columns. These become single columns at (780px). The introduction keeps an overlapping small image anchored to a taller image; the gallery remains horizontally scrollable with native scroll snapping on all sizes.
+Desktop layouts use deliberate unequal pairs: rooms (1.5fr / 1fr), dining (1.06fr / 1fr), and the planner (1fr / 1.12fr). Rituals form three columns. These become single columns at (780px). The introduction keeps an overlapping small image anchored to a taller image; the gallery remains horizontally scrollable with native scroll snapping on all sizes.
 
 Additional adjustments exist at (390px) and from (1900px). The desktop hero is bounded between (720px) and (930px); the narrow hero uses (88svh) with (650–900px) bounds. Image crops use cover framing, with individual focal positions where needed.
+
+The desktop dining photograph spans both the copy and breakfast rows, producing one continuous composition without an empty lower-left cell. Its minimum height is (650px), or (640px) at the intermediate breakpoint. Breakfast fills the right column with a (265px) image, reduced to (235px) at the intermediate breakpoint. On narrow screens the order is copy, main photograph, breakfast; the main image becomes (380px) tall and breakfast sits right aligned at (86%) width with a (230px) image.
 
 Homepage strategy and its particular section sequence are recorded separately in `.impeccable/homepage.md`.
 
 ## Elevation & Depth
 
-Most content is flat. Image gradients supply readable foreground contrast; restrained shadows distinguish the floating quick-planning strip, the overlapping introduction photograph, the scrolled header, and temporary feedback. There is no repeated elevated card system.
+Most content is flat. Image gradients supply readable foreground contrast; restrained shadows distinguish the floating quick-planning strip, the overlapping introduction photograph, the scrolled header, and temporary feedback. Dining photographs now also receive soft ambient shadows; gallery imagery gains a shadow on hover. There is no repeated elevated card system.
 
-The floating strip uses (0 20px 50px #233e4b14), the nested photograph (0 20px 35px #203e4614), the scrolled header (0 8px 30px #19353f0a), and the toast (0 10px 35px #162f4433). Hero and nature gradients are intentionally stronger than content surfaces because they carry white text.
+The floating strip uses (0 20px 50px #233e4b14), the nested photograph (0 20px 35px #203e4614), the scrolled header (0 8px 30px #19353f0a), and the toast (0 10px 35px #162f4433). The dining main image uses (0 24px 65px #314b4917), breakfast (0 18px 40px #314b4912), and gallery hover (0 20px 40px #1838421a). The dining background is a local warm-mineral tint (#ecebe4). Hero and nature gradients are intentionally stronger than content surfaces because they carry white text.
 
-Atmospheric motion consists of a (24s) alternating hero drift, (35s) mist movement, restrained desktop parallax, and reveal/interaction transitions. Reveals take (1.2s) using the shared easing; image hover takes (1.3s). Parallax runs only above (780px) through passive scrolling and requestAnimationFrame. Reduced-motion CSS disables animation and transitions; the visible pause control additionally disables parallax and reveals. Content starts visible before enhancement.
+Atmospheric motion combines a (24s) alternating hero drift, (35s) mist movement, a (22s) dining daylight gradient, and an (18s) pool reflection. Dining daylight slows to (28s) on narrow screens, where pool reflections are hidden. IntersectionObserver pauses ambient scenes outside the viewport; page visibility pauses CSS animation loops in hidden tabs.
+
+Reveals take (1.2s) using the shared easing; ritual image hover takes (1.3s). Pool and nature parallax run only above (780px) through passive scrolling and requestAnimationFrame. Dining adds a separately clamped (-18px to 18px) depth shift on its slightly enlarged main image. Gallery hover lifts the image (-5px) with a (1.2s) transition on desktop. Reduced-motion CSS disables animations and transitions, removes image transforms, and hides button sheen. The visible pause control also stops pseudo-element motion and cancels an active room-image animation. Content starts visible before enhancement.
 
 ## Shapes
 
@@ -132,19 +136,19 @@ Images, planning fields, results, and interest choices use straight edges. Fine 
 
 ### Buttons and links
 
-Primary actions are filled deep water, with white text, a (52px) minimum height, and a restrained (-2px) hover lift. Light actions reverse to paper and ink. Header actions begin transparent over the hero and become filled when the header fixes. Text actions use a thin underline rather than a filled container. Keyboard focus uses a (3px) amber outline with (5px) offset.
+Primary actions are filled deep water, with white text, a (52px) minimum height, and a restrained (-2px) hover lift. Light actions reverse to paper and ink. Header actions begin transparent over the hero and become filled when the header fixes. Text actions use a thin underline rather than a filled container. Keyboard focus uses a (3px) amber outline with (5px) offset. A translucent diagonal sheen crosses filled buttons on hover or focus over (1.1s); overflow remains clipped to the action surface.
 
 ### Navigation
 
-The header starts over the hero and becomes a fixed paper surface after (90px) of scrolling. Desktop links reveal a hairline underline on hover. At (780px), a two-line menu toggle opens a vertical paper navigation panel; Escape closes it and returns focus. No active-section indicator is implemented.
+The header starts over the hero and becomes a fixed paper surface after (90px) of scrolling. Desktop links reveal a hairline underline on hover. At (780px), a two-line menu toggle opens a vertical paper navigation panel; Escape closes it and returns focus. No active-section indicator is implemented. A decorative (2px) reading-progress line tracks overall scroll position along the viewport top; it remains informational when motion is paused.
 
 ### Photographic articles and gallery
 
-Ritual articles have unboxed copy beneath a cropped image, with restrained image enlargement on hover. The native horizontal gallery exposes circular previous/next controls, a five-item counter, keyboard arrows, and disabled end controls. Images have descriptive alternatives and captions; the source set contains 15 distinct images, combining seven generated images and eight licensed stock images.
+Ritual articles have unboxed copy beneath a cropped image, with restrained image enlargement on hover. The native horizontal gallery exposes circular previous/next controls, a five-item counter, keyboard arrows, and disabled end controls. Images have descriptive alternatives and captions; the source set contains 15 distinct images, combining eight generated images and seven licensed stock images.
 
 ### Room selection
 
-Three text tabs share a bottom rule; the selected tab has a (2px) deep-water underline. Arrow keys, Home, and End move selection. The adjoining image, title, copy, features, and counter update together. The selection action carries the room preference into the planner.
+Three text tabs share a bottom rule; the selected tab has a (2px) deep-water underline. Arrow keys, Home, and End move selection. The adjoining image, title, copy, features, and counter update together. The changed image animates from (0.35) opacity and (1.035) scale to its resting state over (700ms) with the shared easing through the Web Animations API. Switching again cancels the previous animation; pause and reduced-motion preferences suppress it. The selection action carries the room preference into the planner.
 
 ### Fields and interest choices
 

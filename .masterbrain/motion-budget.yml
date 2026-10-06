@@ -1,10 +1,12 @@
 owner: 103
 families:
-- hero drift and mist
-- desktop parallax
-- subtle reveal
-- hover feedback
+- ambient light and water
+- scroll-linked depth and reading progress
+- subtle reveals
+- interaction sheen and room transition
 native_scroll: true
 reduced_motion: true
 manual_pause: true
 mobile_parallax: false
+offscreen_pause: true
+hidden_tab_pause: true

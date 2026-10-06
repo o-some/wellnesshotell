@@ -43,17 +43,14 @@
   },
   {
     "id": "breakfast",
-    "file": "breakfast.webp",
-    "source_page": "https://unsplash.com/photos/breakfast-spread-with-waffles-eggs-and-juice-hrlvr2ZlUNk",
-    "source_image": "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=max&w=1800&q=85",
-    "license": "https://unsplash.com/license",
+    "file": "breakfast-v2.webp",
+    "source": "OpenAI native image generation",
+    "role": "fictional Nordic breakfast concept, replacement requested by user",
     "dimensions": [
-      1800,
-      1200
+      1536,
+      1024
     ],
-    "role": "illustrative concept imagery, not actual hotel",
-    "bytes": 453880,
-    "sha256": "ad617159079a5c8231f382e84775a79005eca2305f4d96455c2da7cd30ee4d3a"
+    "sha256": "03e9326668190cf16b8627cefe1d49a5e114bb12cea5399afd301742846e5cf7"
   },
   {
     "id": "tea",

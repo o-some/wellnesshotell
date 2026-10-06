@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "generatedAt": "2026-10-06T07:15:59.762578+00:00",
+  "generatedAt": "2026-10-06T07:52:46.085203+00:00",
   "title": "Design System: STILL — Nordic Light",
   "extensions": {
     "colorMeta": {
@@ -151,6 +151,21 @@
         "name": "toast",
         "value": "0 10px 35px #162f4433",
         "purpose": "Temporary feedback"
+      },
+      {
+        "name": "dining-main",
+        "value": "0 24px 65px #314b4917",
+        "purpose": "Continuous dining composition"
+      },
+      {
+        "name": "breakfast",
+        "value": "0 18px 40px #314b4912",
+        "purpose": "Breakfast detail"
+      },
+      {
+        "name": "gallery-hover",
+        "value": "0 20px 40px #1838421a",
+        "purpose": "Desktop image hover"
       }
     ],
     "motion": [
@@ -173,6 +188,36 @@
         "name": "reveal",
         "value": "1.2s",
         "purpose": "Progressive image entrance"
+      },
+      {
+        "name": "morning-light",
+        "value": "22s ease-in-out infinite alternate; 28s at max-width:780px",
+        "purpose": "Daylight gradient; runs only in visible scene"
+      },
+      {
+        "name": "water-light",
+        "value": "18s ease-in-out infinite alternate",
+        "purpose": "Pool reflection; hidden at max-width:780px"
+      },
+      {
+        "name": "button-sheen",
+        "value": "1.1s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Hover/focus sheen"
+      },
+      {
+        "name": "room-change",
+        "value": "700ms cubic-bezier(.16,1,.3,1)",
+        "purpose": "WAAPI opacity .35 to 1 and scale 1.035 to 1; cancellable"
+      },
+      {
+        "name": "gallery-hover",
+        "value": "1.2s cubic-bezier(.16,1,.3,1)",
+        "purpose": "Desktop image lift and shadow"
+      },
+      {
+        "name": "dining-depth",
+        "value": "clamp(-18px, scroll-derived shift, 18px)",
+        "purpose": "Desktop-only dining image depth; zero when paused"
       }
     ],
     "breakpoints": [
@@ -201,7 +246,7 @@
       "refersTo": "button-primary",
       "description": "Travel planning action.",
       "html": "<button class=\"ds-button-primary\">Auszeit planen</button>",
-      "css": ".ds-button-primary{font-family:var(--sans,Arial,sans-serif);font-size:13px;line-height:1.5;display:inline-flex;align-items:center;justify-content:center;gap:26px;min-height:52px;padding:16px 25px;border:1px solid transparent;cursor:pointer;transition:background .3s,transform .4s var(--ease,cubic-bezier(.16,1,.3,1));background:var(--deep,#173d47);color:#fff}.ds-button-primary:hover{background:#315c67;transform:translateY(-2px)}.ds-button-primary:focus-visible{outline:3px solid var(--focus,#a57439);outline-offset:5px}"
+      "css": ".ds-button-primary{font-family:var(--sans,Arial,sans-serif);font-size:13px;line-height:1.5;display:inline-flex;align-items:center;justify-content:center;gap:26px;min-height:52px;padding:16px 25px;border:1px solid transparent;cursor:pointer;transition:background .3s,transform .4s var(--ease,cubic-bezier(.16,1,.3,1));background:var(--deep,#173d47);color:#fff}.ds-button-primary:hover{background:#315c67;transform:translateY(-2px)}.ds-button-primary:focus-visible{outline:3px solid var(--focus,#a57439);outline-offset:5px}.ds-button-primary{position:relative;overflow:hidden;isolation:isolate}.ds-button-primary:after{content:\"\";position:absolute;inset:-50% -80%;pointer-events:none;background:linear-gradient(110deg,transparent 42%,#ffffff24 50%,transparent 58%);transform:translateX(-45%);transition:transform 1.1s var(--ease,cubic-bezier(.16,1,.3,1))}.ds-button-primary:hover:after,.ds-button-primary:focus-visible:after{transform:translateX(45%)}@media(prefers-reduced-motion:reduce){.ds-button-primary{transition:none}.ds-button-primary:after{display:none}}"
     },
     {
       "name": "Light button",
@@ -209,7 +254,7 @@
       "refersTo": "button-light",
       "description": "Travel planning action.",
       "html": "<button class=\"ds-button-light\">Auszeit planen</button>",
-      "css": ".ds-button-light{font-family:var(--sans,Arial,sans-serif);font-size:13px;line-height:1.5;display:inline-flex;align-items:center;justify-content:center;gap:26px;min-height:52px;padding:16px 25px;border:1px solid transparent;cursor:pointer;transition:background .3s,transform .4s var(--ease,cubic-bezier(.16,1,.3,1));background:var(--paper,#f6f5f0);color:var(--ink,#24434b)}.ds-button-light:hover{background:#fff;transform:translateY(-2px)}.ds-button-light:focus-visible{outline:3px solid var(--focus,#a57439);outline-offset:5px}"
+      "css": ".ds-button-light{font-family:var(--sans,Arial,sans-serif);font-size:13px;line-height:1.5;display:inline-flex;align-items:center;justify-content:center;gap:26px;min-height:52px;padding:16px 25px;border:1px solid transparent;cursor:pointer;transition:background .3s,transform .4s var(--ease,cubic-bezier(.16,1,.3,1));background:var(--paper,#f6f5f0);color:var(--ink,#24434b)}.ds-button-light:hover{background:#fff;transform:translateY(-2px)}.ds-button-light:focus-visible{outline:3px solid var(--focus,#a57439);outline-offset:5px}.ds-button-light{position:relative;overflow:hidden;isolation:isolate}.ds-button-light:after{content:\"\";position:absolute;inset:-50% -80%;pointer-events:none;background:linear-gradient(110deg,transparent 42%,#ffffff24 50%,transparent 58%);transform:translateX(-45%);transition:transform 1.1s var(--ease,cubic-bezier(.16,1,.3,1))}.ds-button-light:hover:after,.ds-button-light:focus-visible:after{transform:translateX(45%)}@media(prefers-reduced-motion:reduce){.ds-button-light{transition:none}.ds-button-light:after{display:none}}"
     },
     {
       "name": "Text link",

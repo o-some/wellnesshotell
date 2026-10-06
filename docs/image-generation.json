@@ -8,10 +8,12 @@
     "lounge",
     "dinner",
     "room",
-    "room-sea"
+    "room-sea",
+    "breakfast-v2"
   ],
   "brief": "Photorealistic fictional Nordic lakeside retreat; soft silver-blue water, pale oak, limestone, warm ivory linen. No logos, no text, no collage. Hero infinity pool, suite, indoor pool, lounge, seasonal dinner, reading room and light bedroom.",
   "originals": "Customer [User Input]/generated-originals",
   "published_derivatives": "public/assets/*.webp",
-  "private_originals_preserved": true
+  "private_originals_preserved": true,
+  "refinement": "User requested replacement of bright breakfast stock image; new Nordic lake breakfast, 2026-10-06"
 }

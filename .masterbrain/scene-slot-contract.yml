@@ -11,7 +11,7 @@ slots:
   file: public/assets/massage.webp
 - id: breakfast
   identity_mode: none
-  file: public/assets/breakfast.webp
+  file: public/assets/breakfast-v2.webp
 - id: tea
   identity_mode: none
   file: public/assets/tea.webp

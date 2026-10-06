@@ -1,0 +1,41 @@
+{
+  "url": "https://o-some.github.io/wellnesshotell/",
+  "revision": "376d6413c144f5101fff03c7a3354d40cf7d67e2",
+  "files": [
+    {
+      "path": "index.html",
+      "matches": true,
+      "sha256": "df373ccfd84f819c923ca3e84dac01133c9aa1ec56afc98f3128f1ae58fa63eb"
+    },
+    {
+      "path": "styles.css",
+      "matches": true,
+      "sha256": "a979808468cf33a8e4a6715ab7fe1a3f79b1fd9e906ee89f153f776e7d58aa2b"
+    },
+    {
+      "path": "app.js",
+      "matches": true,
+      "sha256": "a8b2d65eb3d08dfbbea9717420d44265e3842acb37cf78b0b93fbec3fbeaa4f3"
+    },
+    {
+      "path": "bildnachweise.html",
+      "matches": true,
+      "sha256": "53b9761d60187c9d95a9b08f1fbbe2eef8e03614439c00f761453ac80d8f54f7"
+    },
+    {
+      "path": "assets/breakfast-v2.webp",
+      "matches": true,
+      "sha256": "03e9326668190cf16b8627cefe1d49a5e114bb12cea5399afd301742846e5cf7"
+    },
+    {
+      "path": "assets/breakfast-v2-640.webp",
+      "matches": true,
+      "sha256": "da87f406f3c55b51f84821bfcc914dadad7e68ebfab31d49564bc83bc4bbf376"
+    },
+    {
+      "path": "assets/breakfast-v2-1000.webp",
+      "matches": true,
+      "sha256": "08135b3f7c58be03ad1225c8d7fa72b3271d33bc75f9049a5d0cd0163d4cb4f2"
+    }
+  ]
+}

@@ -1,0 +1,275 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-06T07:15:59.762578+00:00",
+  "title": "Design System: STILL — Nordic Light",
+  "extensions": {
+    "colorMeta": {
+      "ink": {
+        "role": "primary",
+        "displayName": "Water ink",
+        "tonalRamp": [
+          "oklch(0.150 0.0392 216.25)",
+          "oklch(0.264 0.0392 216.25)",
+          "oklch(0.379 0.0392 216.25)",
+          "oklch(0.493 0.0392 216.25)",
+          "oklch(0.607 0.0392 216.25)",
+          "oklch(0.721 0.0392 216.25)",
+          "oklch(0.836 0.0392 216.25)",
+          "oklch(0.950 0.0392 216.25)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted slate",
+        "tonalRamp": [
+          "oklch(0.150 0.0290 215.43)",
+          "oklch(0.264 0.0290 215.43)",
+          "oklch(0.379 0.0290 215.43)",
+          "oklch(0.493 0.0290 215.43)",
+          "oklch(0.607 0.0290 215.43)",
+          "oklch(0.721 0.0290 215.43)",
+          "oklch(0.836 0.0290 215.43)",
+          "oklch(0.950 0.0290 215.43)"
+        ]
+      },
+      "paper": {
+        "role": "neutral",
+        "displayName": "Warm paper",
+        "tonalRamp": [
+          "oklch(0.150 0.0067 97.35)",
+          "oklch(0.264 0.0067 97.35)",
+          "oklch(0.379 0.0067 97.35)",
+          "oklch(0.493 0.0067 97.35)",
+          "oklch(0.607 0.0067 97.35)",
+          "oklch(0.721 0.0067 97.35)",
+          "oklch(0.836 0.0067 97.35)",
+          "oklch(0.950 0.0067 97.35)"
+        ]
+      },
+      "water": {
+        "role": "neutral",
+        "displayName": "Water",
+        "tonalRamp": [
+          "oklch(0.150 0.0107 196.97)",
+          "oklch(0.264 0.0107 196.97)",
+          "oklch(0.379 0.0107 196.97)",
+          "oklch(0.493 0.0107 196.97)",
+          "oklch(0.607 0.0107 196.97)",
+          "oklch(0.721 0.0107 196.97)",
+          "oklch(0.836 0.0107 196.97)",
+          "oklch(0.950 0.0107 196.97)"
+        ]
+      },
+      "deep": {
+        "role": "primary",
+        "displayName": "Deep water",
+        "tonalRamp": [
+          "oklch(0.150 0.0461 217.78)",
+          "oklch(0.264 0.0461 217.78)",
+          "oklch(0.379 0.0461 217.78)",
+          "oklch(0.493 0.0461 217.78)",
+          "oklch(0.607 0.0461 217.78)",
+          "oklch(0.721 0.0461 217.78)",
+          "oklch(0.836 0.0461 217.78)",
+          "oklch(0.950 0.0461 217.78)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Mineral line",
+        "tonalRamp": [
+          "oklch(0.150 0.0175 196.82)",
+          "oklch(0.264 0.0175 196.82)",
+          "oklch(0.379 0.0175 196.82)",
+          "oklch(0.493 0.0175 196.82)",
+          "oklch(0.607 0.0175 196.82)",
+          "oklch(0.721 0.0175 196.82)",
+          "oklch(0.836 0.0175 196.82)",
+          "oklch(0.950 0.0175 196.82)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "White",
+        "tonalRamp": [
+          "oklch(0.150 0.0000 89.88)",
+          "oklch(0.264 0.0000 89.88)",
+          "oklch(0.379 0.0000 89.88)",
+          "oklch(0.493 0.0000 89.88)",
+          "oklch(0.607 0.0000 89.88)",
+          "oklch(0.721 0.0000 89.88)",
+          "oklch(0.836 0.0000 89.88)",
+          "oklch(0.950 0.0000 89.88)"
+        ]
+      },
+      "action-hover": {
+        "role": "primary",
+        "displayName": "Action hover",
+        "tonalRamp": [
+          "oklch(0.150 0.0510 216.26)",
+          "oklch(0.264 0.0510 216.26)",
+          "oklch(0.379 0.0510 216.26)",
+          "oklch(0.493 0.0510 216.26)",
+          "oklch(0.607 0.0510 216.26)",
+          "oklch(0.721 0.0510 216.26)",
+          "oklch(0.836 0.0510 216.26)",
+          "oklch(0.950 0.0510 216.26)"
+        ]
+      },
+      "focus": {
+        "role": "accent",
+        "displayName": "Focus amber",
+        "tonalRamp": [
+          "oklch(0.150 0.0975 69.03)",
+          "oklch(0.264 0.0975 69.03)",
+          "oklch(0.379 0.0975 69.03)",
+          "oklch(0.493 0.0975 69.03)",
+          "oklch(0.607 0.0975 69.03)",
+          "oklch(0.721 0.0975 69.03)",
+          "oklch(0.836 0.0975 69.03)",
+          "oklch(0.950 0.0975 69.03)"
+        ]
+      }
+    },
+    "shadows": [
+      {
+        "name": "quick-plan",
+        "value": "0 20px 50px #233e4b14",
+        "purpose": "Floating quick-planning strip"
+      },
+      {
+        "name": "nested-image",
+        "value": "0 20px 35px #203e4614",
+        "purpose": "Overlapping introduction image"
+      },
+      {
+        "name": "header",
+        "value": "0 8px 30px #19353f0a",
+        "purpose": "Scrolled header"
+      },
+      {
+        "name": "toast",
+        "value": "0 10px 35px #162f4433",
+        "purpose": "Temporary feedback"
+      }
+    ],
+    "motion": [
+      {
+        "name": "ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Reveal and interaction easing"
+      },
+      {
+        "name": "hero-drift",
+        "value": "24s ease-in-out infinite alternate",
+        "purpose": "Slow landscape drift"
+      },
+      {
+        "name": "mist",
+        "value": "35s ease-in-out infinite alternate",
+        "purpose": "Atmospheric mist"
+      },
+      {
+        "name": "reveal",
+        "value": "1.2s",
+        "purpose": "Progressive image entrance"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact",
+        "value": "390px"
+      },
+      {
+        "name": "narrow",
+        "value": "780px"
+      },
+      {
+        "name": "medium",
+        "value": "1100px"
+      },
+      {
+        "name": "wide",
+        "value": "1900px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Travel planning action.",
+      "html": "<button class=\"ds-button-primary\">Auszeit planen</button>",
+      "css": ".ds-button-primary{font-family:var(--sans,Arial,sans-serif);font-size:13px;line-height:1.5;display:inline-flex;align-items:center;justify-content:center;gap:26px;min-height:52px;padding:16px 25px;border:1px solid transparent;cursor:pointer;transition:background .3s,transform .4s var(--ease,cubic-bezier(.16,1,.3,1));background:var(--deep,#173d47);color:#fff}.ds-button-primary:hover{background:#315c67;transform:translateY(-2px)}.ds-button-primary:focus-visible{outline:3px solid var(--focus,#a57439);outline-offset:5px}"
+    },
+    {
+      "name": "Light button",
+      "kind": "button",
+      "refersTo": "button-light",
+      "description": "Travel planning action.",
+      "html": "<button class=\"ds-button-light\">Auszeit planen</button>",
+      "css": ".ds-button-light{font-family:var(--sans,Arial,sans-serif);font-size:13px;line-height:1.5;display:inline-flex;align-items:center;justify-content:center;gap:26px;min-height:52px;padding:16px 25px;border:1px solid transparent;cursor:pointer;transition:background .3s,transform .4s var(--ease,cubic-bezier(.16,1,.3,1));background:var(--paper,#f6f5f0);color:var(--ink,#24434b)}.ds-button-light:hover{background:#fff;transform:translateY(-2px)}.ds-button-light:focus-visible{outline:3px solid var(--focus,#a57439);outline-offset:5px}"
+    },
+    {
+      "name": "Text link",
+      "kind": "button",
+      "description": "Quiet secondary action.",
+      "html": "<button class=\"ds-text\">Auswahl ändern</button>",
+      "css": ".ds-text{font:13px/1.6 var(--sans,Arial,sans-serif);background:none;color:var(--ink,#24434b);border:0;border-bottom:1px solid #9aafb1;padding:0 0 7px;cursor:pointer}.ds-text:hover{color:#577b84;border-color:currentColor}.ds-text:focus-visible{outline:3px solid var(--focus,#a57439);outline-offset:5px}"
+    },
+    {
+      "name": "Date field",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "Bottom-ruled native date input.",
+      "html": "<label class=\"ds-label\">Anreise<input class=\"ds-field\" type=\"date\"></label>",
+      "css": ".ds-label{font:12px var(--sans,Arial,sans-serif);color:var(--ink,#24434b)}.ds-field{display:block;width:100%;background:transparent;color:inherit;border:0;border-bottom:1px solid #86a2a8;border-radius:0;padding:14px 0;min-height:54px;font:16px var(--sans,Arial,sans-serif)}.ds-field:focus-visible{outline:3px solid var(--focus,#a57439);outline-offset:5px}"
+    },
+    {
+      "name": "Interest choice",
+      "kind": "chip",
+      "refersTo": "interest",
+      "description": "Native checkbox with outlined/filled label state.",
+      "html": "<label class=\"ds-interest\"><input type=\"checkbox\"><span>Sauna &amp; Wärme</span></label>",
+      "css": ".ds-interest{position:relative;display:inline-block;font:12px var(--sans,Arial,sans-serif);color:var(--ink,#24434b)}.ds-interest input{position:absolute;opacity:0;width:100%;height:100%;inset:0;margin:0;cursor:pointer}.ds-interest span{display:block;border:1px solid #91acb0;padding:10px 15px;transition:background .3s,color .3s}.ds-interest input:checked+span{background:var(--deep,#173d47);border-color:var(--deep,#173d47);color:white}.ds-interest input:focus-visible+span{outline:3px solid #a57439;outline-offset:3px}"
+    },
+    {
+      "name": "Navigation",
+      "kind": "nav",
+      "description": "Sans navigation with a revealed hairline.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#spa\">Spa &amp; Rituale</a><a href=\"#zimmer\">Wohnen</a></nav>",
+      "css": ".ds-nav{display:flex;gap:32px;font:12px var(--sans,Arial,sans-serif);color:var(--ink,#24434b)}.ds-nav a{position:relative;color:inherit;text-decoration:none;padding:10px 0}.ds-nav a:after{content:\"\";position:absolute;bottom:4px;left:0;right:0;height:1px;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .4s}.ds-nav a:hover:after{transform:scaleX(1)}.ds-nav a:focus-visible{outline:3px solid var(--focus,#a57439);outline-offset:5px}"
+    },
+    {
+      "name": "Plan result",
+      "kind": "card",
+      "description": "Flat paper result with a top rule; no reservation claim.",
+      "html": "<section class=\"ds-result\"><h3>Das klingt nach Ihrer Zeit.</h3><p>Nur ein Entwurf. Nicht versendet, keine Reservierung.</p></section>",
+      "css": ".ds-result{padding:35px;background:var(--paper,#f6f5f0);border-top:2px solid #7a9ca3;color:var(--ink,#24434b)}.ds-result h3{font:400 38px/1.05 var(--serif,Georgia,serif);letter-spacing:-.035em;margin:12px 0 25px}.ds-result p{font:11px/1.7 var(--sans,Arial,sans-serif);color:var(--muted,#4f666c)}"
+    }
+  ],
+  "narrative": {
+    "northStar": "Nordic Light Spa",
+    "overview": "A quiet lakeside retreat between silver-blue water and warm limestone. Cormorant Garamond supplies editorial softness; Manrope keeps navigation and planning clear. The source direction is The Quiet Author Design 188, already selected for this project; its abstract typographic, color and material principles inform an independent STILL identity.\n\nFull-bleed landscapes alternate with generous paper-like sections and asymmetrical interior photographs. Depth stays soft, typography stays left aligned, and the relationship between cool water and warm interiors carries the identity. This document refreshes the accepted direction against `public/index.html`, `public/styles.css`, and `public/app.js`; it does not propose a redesign.",
+    "keyCharacteristics": [
+      "Quiet serif headlines with occasional italic phrases.",
+      "Broad photographic scenes and restrained blue-green controls.",
+      "Native scrolling, slow atmospheric motion, and explicit motion controls.",
+      "Clear concept labels beside planning actions."
+    ],
+    "rules": [],
+    "dos": [
+      "**Do** preserve the water-and-limestone palette and serif/sans relationship.",
+      "**Do** give photography a clear narrative role and retain readable image shading.",
+      "**Do** keep native scrolling, visible keyboard focus, and reduced-motion support.",
+      "**Do** keep concept and travel-draft labels legible near selection and download actions."
+    ],
+    "donts": [
+      "**Don't** replace the restrained editorial system with generic luxury gold or icon tile grids.",
+      "**Don't** hide essential content behind motion or depend on parallax on narrow screens.",
+      "**Don't** present generated scenes or licensed inspiration images as proof of a real hotel.",
+      "**Don't** make the planner look like a confirmed reservation or real availability result."
+    ]
+  }
+}

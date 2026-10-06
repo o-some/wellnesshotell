@@ -1,0 +1,61 @@
+{
+  "url": "https://o-some.github.io/wellnesshotell/",
+  "revision": "598fef611f241d666c53fc4e367cc92f1c829039",
+  "files": [
+    {
+      "path": "index.html",
+      "matches": true,
+      "sha256": "05c19a1d67bfe78fe9e8750e20f91479f40b676716b1e62fb2a703fe6717635c"
+    },
+    {
+      "path": "styles.css",
+      "matches": true,
+      "sha256": "a979808468cf33a8e4a6715ab7fe1a3f79b1fd9e906ee89f153f776e7d58aa2b"
+    },
+    {
+      "path": "cinematic.css",
+      "matches": true,
+      "sha256": "003a12fee9ab8403d1991d6d3ed0d36dd544e1e3cad3dea2f52f3cc7278f23de"
+    },
+    {
+      "path": "app.js",
+      "matches": true,
+      "sha256": "a5560b2c46a816ca1ff88be5eae49ec46dd00753ecec231701e0e3236eaa30fc"
+    },
+    {
+      "path": "bildnachweise.html",
+      "matches": true,
+      "sha256": "b94a60fe65ae966be0fab832c95939357439e9ab94294818730d9344c5026a29"
+    },
+    {
+      "path": "assets/dawn.webp",
+      "matches": true,
+      "sha256": "7b86d4fb70377f9a351f9f94d77f290833e5edb9bd8b2a785de2de13cfe0e97e"
+    },
+    {
+      "path": "assets/dawn-800.webp",
+      "matches": true,
+      "sha256": "8062d2e974489b4013f54157a27a60be5eff3fa45bab98d4d9281d3adbf601c7"
+    },
+    {
+      "path": "assets/dawn-1440.webp",
+      "matches": true,
+      "sha256": "829a3abdd7aba6d0ac0ca524a922f606616d68ff47fcf4bff5ca7f57535519fa"
+    },
+    {
+      "path": "assets/dusk.webp",
+      "matches": true,
+      "sha256": "75554ab4bc2b8dd02508759d0f911d7fac5e67129a9c8467cca546ba019ce1c0"
+    },
+    {
+      "path": "assets/dusk-800.webp",
+      "matches": true,
+      "sha256": "c5735b2865f271cc1e8c45f4f1f9c6819bcfb2434c889d3a2f8f7b05a1900a94"
+    },
+    {
+      "path": "assets/dusk-1440.webp",
+      "matches": true,
+      "sha256": "a31badf53fc7eafd5652a70e3b4cbc51bb46909669e2993c70883667e17b6fe0"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "images": [
+    {
+      "src": "assets/hero.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/lounge.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/tea.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/dawn.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/pool.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/sauna.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/massage.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/bath.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/suite.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/dinner.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/breakfast-v2.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/forest.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/dusk.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/lake.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/room.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/room-sea.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/room-studio.webp",
+      "loaded": true
+    },
+    {
+      "src": "assets/tea.webp",
+      "loaded": true
+    }
+  ],
+  "active": {
+    "frame": "inset(2.08%)",
+    "overflow": false
+  },
+  "room": "Licht Refugium",
+  "planner": "true",
+  "errors": ""
+}

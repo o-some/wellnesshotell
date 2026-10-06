@@ -1,0 +1,46 @@
+{
+  "url": "https://o-some.github.io/wellnesshotell/",
+  "revision": "d00c7359f6ef0aec51f75bc3c778a80acefea63a",
+  "files": [
+    {
+      "path": "index.html",
+      "matches": true,
+      "sha256": "d69c61a03e29a3f87a9de1c57b1a39bca2dea3ed37b4bbacf28a87fe4588108f"
+    },
+    {
+      "path": "styles.css",
+      "matches": true,
+      "sha256": "a979808468cf33a8e4a6715ab7fe1a3f79b1fd9e906ee89f153f776e7d58aa2b"
+    },
+    {
+      "path": "cinematic.css",
+      "matches": true,
+      "sha256": "e86946ed9bd2fecb7b2caef05ab2440d707fee85731c99673ccf00a71613ae70"
+    },
+    {
+      "path": "app.js",
+      "matches": true,
+      "sha256": "a5560b2c46a816ca1ff88be5eae49ec46dd00753ecec231701e0e3236eaa30fc"
+    },
+    {
+      "path": "bildnachweise.html",
+      "matches": true,
+      "sha256": "018342d663d0826127758085762661a2b93b5d80c91b68a4f7ac8852f34d1d93"
+    },
+    {
+      "path": "assets/fireside.webp",
+      "matches": true,
+      "sha256": "a232407ea31c22f6c46d5fff1308f7aa1265ba7ce492d72640b550f4b155d43b"
+    },
+    {
+      "path": "assets/fireside-800.webp",
+      "matches": true,
+      "sha256": "3f9cf026735ab14873ca2f34a57bc02ad74b9bcfc82e26e735651cfe34ce0605"
+    },
+    {
+      "path": "assets/fireside-1440.webp",
+      "matches": true,
+      "sha256": "51eb5911550e44737f99c37ae5e240b6b13ae84dc1c8f7901fcbfaf879299c45"
+    }
+  ]
+}

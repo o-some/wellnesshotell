@@ -1,0 +1,10 @@
+factory: CAF 1.21.1
+workspace: WORKSPACE_READY
+contract: CONTRACT_ENROLLED
+implementation: native Codex
+image_provider: native image_gen
+browser: agent-browser Chrome
+remote: o-some/wellnesshotell
+deployment: GitHub Pages Actions
+sites: forbidden by user
+formal_aggregate_certificate: not claimed

@@ -1,0 +1,17 @@
+{
+  "provider": "OpenAI native image_gen",
+  "project": "STILL wellnesshotel",
+  "assets": [
+    "hero",
+    "suite",
+    "pool",
+    "lounge",
+    "dinner",
+    "room",
+    "room-sea"
+  ],
+  "brief": "Photorealistic fictional Nordic lakeside retreat; soft silver-blue water, pale oak, limestone, warm ivory linen. No logos, no text, no collage. Hero infinity pool, suite, indoor pool, lounge, seasonal dinner, reading room and light bedroom.",
+  "originals": "Customer [User Input]/generated-originals",
+  "published_derivatives": "public/assets/*.webp",
+  "private_originals_preserved": true
+}

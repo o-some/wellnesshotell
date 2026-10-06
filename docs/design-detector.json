@@ -1,0 +1,12 @@
+[
+  {
+    "antipattern": "layout-transition",
+    "name": "Layout property animation",
+    "description": "Animating width, height, padding, or margin causes layout thrash and janky performance. Use transform and opacity instead, or grid-template-rows for height animations.",
+    "severity": "warning",
+    "category": "quality",
+    "file": "/Users/eleftheriossamouladas/Library/CloudStorage/Dropbox/[[KUNDEN]]/[Wellnesshotel]/[Websites]/wellnesshotell/public/styles.css",
+    "line": 4,
+    "snippet": "transition: height"
+  }
+]

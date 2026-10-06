@@ -1,0 +1,10 @@
+owner: 103
+families:
+- hero drift and mist
+- desktop parallax
+- subtle reveal
+- hover feedback
+native_scroll: true
+reduced_motion: true
+manual_pause: true
+mobile_parallax: false

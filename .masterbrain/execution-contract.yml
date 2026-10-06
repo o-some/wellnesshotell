@@ -1,0 +1,143 @@
+capabilities:
+  optional: []
+  required: []
+  resolved: []
+completion:
+  definition: []
+  limitations: []
+  open_claims: []
+  satisfied_claims: []
+contract:
+  id: wellnesshotel-20261006
+  owner: Codex
+  revision: 1
+  status: ACTIVE
+evidence:
+  graph_ref: .masterbrain/evidence-graph.yml
+  required_claims:
+  - id: premium.workspace
+    owner: customer.workspace
+    required: true
+  - id: premium.funnel
+    owner: web.premium
+    required: true
+  - id: premium.scene_slots
+    owner: web.premium
+    required: true
+  - id: premium.asset_integrity
+    owner: web.premium
+    required: true
+  - id: premium.responsive_subjects
+    owner: web.visual-taste
+    required: true
+  - id: premium.cinematic_continuity
+    owner: web.visual-taste
+    required: true
+  - id: premium.scroll_bidirectional
+    owner: web.motion
+    required: true
+  - id: premium.reduced_motion
+    owner: web.accessibility
+    required: true
+  - id: premium.interaction_states
+    owner: web.performance-conversion
+    required: true
+  - id: premium.conversion
+    owner: web.performance-conversion
+    required: true
+  - id: premium.accessibility
+    owner: web.accessibility
+    required: true
+  - id: premium.performance
+    owner: web.performance-conversion
+    required: true
+  - id: premium.independent_review
+    owner: web.visual-taste
+    required: true
+  - id: premium.rights_privacy
+    owner: design.visual-qa
+    required: true
+  - id: premium.brand_delivery
+    owner: design.brand-ci
+    required: true
+execution_contract_version: 1.0.0
+human_gates: []
+identity:
+  base_sha: b35e4b0aa5ff77102fdab95ef4d079bb29aff55b
+  branch: main
+  canonical_repository: https://github.com/o-some/wellnesshotell
+  head_sha: b35e4b0aa5ff77102fdab95ef4d079bb29aff55b
+  project_name: Wellnesshotel
+  project_root: /Users/eleftheriossamouladas/Library/CloudStorage/Dropbox/[[KUNDEN]]/[Wellnesshotel]/[Websites]/wellnesshotell
+outcome:
+  goal: Build a premium German wellness hotel concept website with at least 15 high
+    quality images, conversion journey, slow motion, parallax and shading. Publish
+    o-some/wellnesshotell on GitHub Pages.
+  must_do:
+  - 15 distinct quality images
+  - Nordic Light Spa source
+  - functional concept planner
+  - responsive and reduced motion
+  - GitHub Pages
+  must_not_do:
+  - Sites operations
+  - invent real prices or testimonials
+  - claim actual booking
+  must_preserve:
+  - existing README history
+  - global factory
+  - design library
+release:
+  active_target: https://o-some.github.io/wellnesshotell/
+  requested: true
+repository_intelligence:
+  enabled: false
+  state_ref: .masterbrain/repository-intelligence.yml
+rollback:
+  reference: b35e4b0aa5ff77102fdab95ef4d079bb29aff55b
+  strategy: git revert
+scope:
+  allowed_supporting_paths:
+  - /Users/eleftheriossamouladas/Library/CloudStorage/Dropbox/[[KUNDEN]]/[Wellnesshotel]
+  external_systems:
+  - o-some/wellnesshotell
+  owned_paths:
+  - '**'
+  protected_paths:
+  - /Users/eleftheriossamouladas/Library/CloudStorage/Dropbox/[[MD Mastery]]
+workflow:
+  required_states: []
+  route: agent_workflow_state_machine
+  state_ref: .masterbrain/workflow-state.yml
+delivery_profile: web.premium/1.0.0
+premium_web:
+  version: 1.0.0
+  request:
+    brief: Build a premium German wellness hotel concept website with at least 15
+      high quality images, conversion journey, slow motion, parallax and shading.
+      Publish o-some/wellnesshotell on GitHub Pages.
+    product_type: website
+    customer_name: Wellnesshotel
+    resolved_customer_root: /Users/eleftheriossamouladas/Library/CloudStorage/Dropbox/[[KUNDEN]]/[Wellnesshotel]
+    person_relevance: false
+    brand_inventory: absent
+    design_selection:
+      number: '188'
+    locales:
+    - de
+    release_requested: true
+    visual_style_decision: delegated_to_caf
+  input_fingerprint: ee85456f4d782435861a553d97c508f14b5ad2caa30707c67bcab692ac3f850d
+  maker_id: codex-wellnesshotel
+  enrollment_version: 1.1.0
+  workspace_binding:
+    root: /Users/eleftheriossamouladas/Library/CloudStorage/Dropbox/[[KUNDEN]]/[Wellnesshotel]
+    root_id: local:16777229:133909035
+    host_id: 3889dec934bce04954156168d5d8674c47dd69bd4b9c4aca091bf500160128b4
+    profiles:
+    - web_brand
+    mode: local_single_host
+execution_authority:
+  mode: single_host_pinned
+  host_id: 3889dec934bce04954156168d5d8674c47dd69bd4b9c4aca091bf500160128b4
+  project_root: /Users/eleftheriossamouladas/Library/CloudStorage/Dropbox/[[KUNDEN]]/[Wellnesshotel]/[Websites]/wellnesshotell

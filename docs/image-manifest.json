@@ -1,0 +1,191 @@
+[
+  {
+    "id": "sauna",
+    "file": "sauna.webp",
+    "source_page": "https://unsplash.com/photos/interior-of-a-wooden-sauna-with-a-heater-Z80uS2A-IFw",
+    "source_image": "https://images.unsplash.com/photo-1770573319185-049b29ab0ca9?auto=format&fit=max&w=1800&q=85",
+    "license": "https://unsplash.com/license",
+    "dimensions": [
+      1200,
+      1800
+    ],
+    "role": "illustrative concept imagery, not actual hotel",
+    "bytes": 159590,
+    "sha256": "524eca18653763b63093cfc691aa5bed0cbc3ba9e705a5ca35b5de7e494cba54"
+  },
+  {
+    "id": "bath",
+    "file": "bath.webp",
+    "source_page": "https://unsplash.com/photos/wooden-sauna-room-with-a-bathtub-and-slippers-jlB0JgWlAns",
+    "source_image": "https://images.unsplash.com/photo-1773423386509-b57f17224b30?auto=format&fit=max&w=1800&q=85",
+    "license": "https://unsplash.com/license",
+    "dimensions": [
+      1200,
+      1800
+    ],
+    "role": "illustrative concept imagery, not actual hotel",
+    "bytes": 175740,
+    "sha256": "bae0d39a34ac3ad87b9328e88054b95b59fe927a212e198b7684e97ee564543f"
+  },
+  {
+    "id": "massage",
+    "file": "massage.webp",
+    "source_page": "https://unsplash.com/photos/a-woman-getting-a-back-massage-at-a-spa--AakIaAPV0w",
+    "source_image": "https://images.unsplash.com/photo-1639162906614-0603b0ae95fd?auto=format&fit=max&w=1800&q=85",
+    "license": "https://unsplash.com/license",
+    "dimensions": [
+      1200,
+      1800
+    ],
+    "role": "illustrative concept imagery, not actual hotel",
+    "bytes": 193700,
+    "sha256": "6805e046596f7eb17aeb2b3ac5e129d9298d5cd6bdeb0f6f8bf2ccd37256ddf6"
+  },
+  {
+    "id": "breakfast",
+    "file": "breakfast.webp",
+    "source_page": "https://unsplash.com/photos/breakfast-spread-with-waffles-eggs-and-juice-hrlvr2ZlUNk",
+    "source_image": "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=max&w=1800&q=85",
+    "license": "https://unsplash.com/license",
+    "dimensions": [
+      1800,
+      1200
+    ],
+    "role": "illustrative concept imagery, not actual hotel",
+    "bytes": 453880,
+    "sha256": "ad617159079a5c8231f382e84775a79005eca2305f4d96455c2da7cd30ee4d3a"
+  },
+  {
+    "id": "tea",
+    "file": "tea.webp",
+    "source_page": "https://unsplash.com/photos/a-cup-of-herbal-tea-with-mint-leaves-WcVLb9HIMrk",
+    "source_image": "https://images.unsplash.com/photo-1773479089546-49ff98325518?auto=format&fit=max&w=1800&q=85",
+    "license": "https://unsplash.com/license",
+    "dimensions": [
+      1200,
+      1800
+    ],
+    "role": "illustrative concept imagery, not actual hotel",
+    "bytes": 101444,
+    "sha256": "57231f23afc46da7a49d4149e92752b1e6b5d7341649c058a2e0d4fc21c6be95"
+  },
+  {
+    "id": "forest",
+    "file": "forest.webp",
+    "source_page": "https://unsplash.com/photos/forest-pathway-GraajutbJHE",
+    "source_image": "https://images.unsplash.com/photo-1471513671800-b09c87e1497c?auto=format&fit=max&w=1800&q=85",
+    "license": "https://unsplash.com/license",
+    "dimensions": [
+      1800,
+      1200
+    ],
+    "role": "illustrative concept imagery, not actual hotel",
+    "bytes": 294244,
+    "sha256": "7000e7426191b895fbd55e217fe68525112c39c2ce89801a47e73aff73826b19"
+  },
+  {
+    "id": "lake",
+    "file": "lake.webp",
+    "source_page": "https://unsplash.com/photos/a-floating-sauna-sits-in-a-stunning-mountain-lake-iffjBg4Rjk8",
+    "source_image": "https://images.unsplash.com/photo-1751564804002-213d0409b13f?auto=format&fit=max&w=1800&q=85",
+    "license": "https://unsplash.com/license",
+    "dimensions": [
+      1800,
+      1350
+    ],
+    "role": "illustrative concept imagery, not actual hotel",
+    "bytes": 527156,
+    "sha256": "6af75f617f2f7b7ef6fdbb6b19e95ad0a0c9a34871fea4d1c689396f42f9cf35"
+  },
+  {
+    "id": "room-studio",
+    "file": "room-studio.webp",
+    "source_page": "https://unsplash.com/photos/a-hotel-room-with-a-bed-desk-chairs-and-a-television-1EJXSLUfqU0",
+    "source_image": "https://images.unsplash.com/photo-1702014859878-5d4743176d28?auto=format&fit=max&w=1800&q=85",
+    "license": "https://unsplash.com/license",
+    "dimensions": [
+      1800,
+      1200
+    ],
+    "role": "illustrative concept imagery, not actual hotel",
+    "bytes": 190230,
+    "sha256": "cc66b4a3a3c95c23557a78c825fa9f2febf7f8ab692e260d9c25b462f639dc8e"
+  },
+  {
+    "id": "hero",
+    "file": "hero.webp",
+    "source": "OpenAI native image generation",
+    "role": "fictional architecture/food concept",
+    "dimensions": [
+      1672,
+      941
+    ],
+    "sha256": "a9eb58f99863ffcf40105dc2a79982b2ee1f60f73956845b613c51a5a60554d2"
+  },
+  {
+    "id": "suite",
+    "file": "suite.webp",
+    "source": "OpenAI native image generation",
+    "role": "fictional architecture/food concept",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "sha256": "6612e0508f73b9512393215b0d63f00ddf20e57c2606cb4533c445903dd87587"
+  },
+  {
+    "id": "pool",
+    "file": "pool.webp",
+    "source": "OpenAI native image generation",
+    "role": "fictional architecture/food concept",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "sha256": "3af6e144365a2430a58da75b4afb081215a654f151f7836b0dbb462aa9d94951"
+  },
+  {
+    "id": "lounge",
+    "file": "lounge.webp",
+    "source": "OpenAI native image generation",
+    "role": "fictional architecture/food concept",
+    "dimensions": [
+      1122,
+      1402
+    ],
+    "sha256": "087a3e4f6edad700ee5ba72c77670f22c6048b0f13dcdc8dbf281776d52a690b"
+  },
+  {
+    "id": "dinner",
+    "file": "dinner.webp",
+    "source": "OpenAI native image generation",
+    "role": "fictional architecture/food concept",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "sha256": "2e298db3e48c6a6e3f28ffbf6c2f6fa2239ebdd920a75a8ec8276f1e37560400"
+  },
+  {
+    "id": "room",
+    "file": "room.webp",
+    "source": "OpenAI native image generation",
+    "role": "fictional architecture/food concept",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "sha256": "f454fbcebef7be2e8c62d31762f7a89fb620568f6756143142255b8d64248edb"
+  },
+  {
+    "id": "room-sea",
+    "file": "room-sea.webp",
+    "source": "OpenAI native image generation",
+    "role": "fictional architecture/food concept",
+    "dimensions": [
+      1536,
+      1024
+    ],
+    "sha256": "b6bc28aeab7a7818f180d43081468d9ee3c421a4185937c99fc6d12dd7ccea2a"
+  }
+]

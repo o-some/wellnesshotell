@@ -1,0 +1,492 @@
+{
+  "plan_version": "1.8.1",
+  "status": "COMPILED",
+  "request_id": "7398799d21d85278c6bc",
+  "product_type": "website",
+  "deliverable_class": "software_product",
+  "router_version": "2.6.0",
+  "routes": [
+    {
+      "id": "premium_web_experience",
+      "stable_id": "router.premium-web"
+    }
+  ],
+  "route_modules": [
+    {
+      "id": "web.search-intelligence",
+      "path": "/[[MD Mastery]]/modules/CAF_SEARCH_INTELLIGENCE.md"
+    },
+    {
+      "id": "design.visual-qa",
+      "path": "/[[MD Mastery]]/modules/45_DESIGN_SYSTEM_VISUAL_QA.md"
+    },
+    {
+      "id": "design.brand-ci",
+      "path": "/[[MD Mastery]]/modules/46_BRAND_CI_DESIGN_STUDIO.md"
+    },
+    {
+      "id": "web.accessibility",
+      "path": "/[[MD Mastery]]/modules/47_WEB_ACCESSIBILITY_ASSURANCE.md"
+    },
+    {
+      "id": "web.premium",
+      "path": "/[[MD Mastery]]/modules/102_PREMIUM_WEB_EXPERIENCE_DIRECTOR.md"
+    },
+    {
+      "id": "web.motion",
+      "path": "/[[MD Mastery]]/modules/103_MOTION_INTERACTION_ENGINE.md"
+    },
+    {
+      "id": "web.performance-conversion",
+      "path": "/[[MD Mastery]]/modules/104_WEB_CONVERSION_PERFORMANCE_GATES.md"
+    },
+    {
+      "id": "web.visual-taste",
+      "path": "/[[MD Mastery]]/modules/105_WEB_VISUAL_TASTE_REVIEW.md"
+    },
+    {
+      "id": "design.style-selector",
+      "path": "/[[MD Mastery]]/modules/136_CAF_VISUAL_STYLE_SYSTEM_SELECTOR.md"
+    },
+    {
+      "id": "web.one-sentence-premium-autopilot",
+      "path": "/[[MD Mastery]]/modules/146_ONE_SENTENCE_PREMIUM_WEBSITE_AUTOPILOT.md"
+    },
+    {
+      "id": "customer.workspace",
+      "path": "/[[MD Mastery]]/modules/147_CAF_CUSTOMER_WORKSPACE.md"
+    }
+  ],
+  "targets": [],
+  "features": [],
+  "profiles": [
+    {
+      "id": "web.search-intelligence",
+      "path": "/[[MD Mastery]]/factory/integration/search-intelligence.yml"
+    },
+    {
+      "id": "web.experience",
+      "path": "/[[MD Mastery]]/factory/integration/web-experience.yml"
+    },
+    {
+      "id": "person.profile-avatar",
+      "path": "/[[MD Mastery]]/factory/integration/person-profile-avatar.yml"
+    },
+    {
+      "id": "capability.canonical",
+      "path": "/[[MD Mastery]]/factory/integration/capability-governance.yml"
+    },
+    {
+      "id": "quality.canonical",
+      "path": "/[[MD Mastery]]/factory/integration/quality-pack.yml"
+    },
+    {
+      "id": "backup.source",
+      "path": "/[[MD Mastery]]/factory/integration/source-backup.yml"
+    },
+    {
+      "id": "provider.health",
+      "path": "/[[MD Mastery]]/factory/integration/provider-health.yml"
+    },
+    {
+      "id": "web.one-sentence-premium-autopilot",
+      "path": "/[[MD Mastery]]/factory/integration/one-sentence-premium-web.yml"
+    }
+  ],
+  "runtime": [
+    {
+      "id": "R2",
+      "path": "/[[MD Mastery]]/factory/runtime/caf_runtime.py"
+    },
+    {
+      "id": "R3",
+      "path": "/[[MD Mastery]]/factory/runtime/caf_runtime_r3.py"
+    },
+    {
+      "id": "SEARCH_INTELLIGENCE",
+      "path": "/[[MD Mastery]]/factory/runtime/caf_search_intelligence.py"
+    },
+    {
+      "id": "R4",
+      "path": "/[[MD Mastery]]/factory/runtime/caf_executor_r4.py"
+    },
+    {
+      "id": "R5",
+      "path": "/[[MD Mastery]]/factory/runtime/caf_repair_r5.py"
+    },
+    {
+      "id": "R6",
+      "path": "/[[MD Mastery]]/factory/runtime/caf_orchestrator_r6.py"
+    },
+    {
+      "id": "R9_BACKUP",
+      "path": "/[[MD Mastery]]/factory/runtime/caf_backup_guard_r9.py"
+    },
+    {
+      "id": "R9_PROVIDER",
+      "path": "/[[MD Mastery]]/factory/runtime/caf_provider_health_r9.py"
+    }
+  ],
+  "gates": [
+    "identity",
+    "contract",
+    "schema",
+    "scope",
+    "evidence",
+    "search_prebuild_contract",
+    "search_model_or_reused_evidence",
+    "search_build_handoff",
+    "search_pre_release_qa",
+    "search_evidence_mapping",
+    "search_shadow_report",
+    "search_no_direct_mutation",
+    "web_delivery_target",
+    "mobile_interaction_runtime",
+    "reduced_motion_runtime",
+    "repeated_visual_motif_integrity_when_present",
+    "live_asset_revision",
+    "design_library_resolution",
+    "style_dna_extraction",
+    "brand_adaptation_originality",
+    "print_to_web_blueprint",
+    "premium_vertical_slice",
+    "mobile_desktop_visual_qa",
+    "live_deployment_verify",
+    "visual_style_accessibility_performance",
+    "quality",
+    "backup",
+    "provider_health",
+    "premium.workspace",
+    "premium.funnel",
+    "premium.scene_slots",
+    "premium.asset_integrity",
+    "premium.responsive_subjects",
+    "premium.cinematic_continuity",
+    "premium.scroll_bidirectional",
+    "premium.reduced_motion",
+    "premium.interaction_states",
+    "premium.conversion",
+    "premium.accessibility",
+    "premium.performance",
+    "premium.independent_review",
+    "premium.rights_privacy",
+    "premium.brand_delivery",
+    "customer_workspace_root_resolution",
+    "customer_workspace_missing_only_reconciliation",
+    "customer_workspace_readback",
+    "customer_workspace_ready_before_durable_write"
+  ],
+  "provider_execution": "proposal_only_via_worker_gateway",
+  "release_authority": "not_requested",
+  "claims_trusted_without_evidence": false,
+  "search_intelligence": {
+    "status": "ACTIVE",
+    "automatic": true,
+    "execution_required": true,
+    "contract_version": "1.0.0",
+    "module": "web.search-intelligence",
+    "profile": "web.search-intelligence",
+    "runtime": "SEARCH_INTELLIGENCE",
+    "mode": "AUTOMATIC",
+    "scope": "FULL",
+    "risk_profile": "R1",
+    "safety_stage": "SHADOW",
+    "change_class": "NEW_SITE",
+    "lifecycle_hooks": [
+      "PRE_BUILD",
+      "BUILD_HANDOFF",
+      "PRE_RELEASE_QA"
+    ],
+    "full_marketing_agency_required": false,
+    "delta_first": true,
+    "reuse_fresh_evidence": true,
+    "deterministic_checks_first": true,
+    "one_planner_default": true,
+    "max_replans": 1,
+    "max_repair_cycles_per_failure": 2,
+    "max_review_passes": 1,
+    "provider_retry_owner": "adapter",
+    "preserve_before_optimize": false,
+    "destructive_auto_fix": false,
+    "unknown_business_facts_publishable": false,
+    "private_data_to_external_providers": false,
+    "required_artifacts": [
+      "search_model",
+      "page_intent_map",
+      "search_requirements",
+      "search_evidence"
+    ],
+    "required_pre_release_checks": [
+      "robots",
+      "meta_robots",
+      "canonical",
+      "sitemap",
+      "status_and_routes",
+      "internal_links",
+      "structured_data",
+      "indexability_contract"
+    ],
+    "required_live_checks": [],
+    "schema_refs": [
+      "/[[MD Mastery]]/factory/schemas/search-profile.schema.json",
+      "/[[MD Mastery]]/factory/schemas/search-model.schema.json",
+      "/[[MD Mastery]]/factory/schemas/search-requirement.schema.json",
+      "/[[MD Mastery]]/factory/schemas/search-finding.schema.json",
+      "/[[MD Mastery]]/factory/schemas/search-evidence.schema.json",
+      "/[[MD Mastery]]/factory/schemas/search-mutation-proposal.schema.json",
+      "/[[MD Mastery]]/factory/schemas/search-provider-result.schema.json"
+    ]
+  },
+  "delivery": {
+    "artifact": "standalone_website",
+    "source_control": "git",
+    "canonical_remote": "github",
+    "provider_candidates": [
+      "github_pages",
+      "cloudflare_pages"
+    ],
+    "selected_provider": "github_pages",
+    "selection_reason": "new_static_site_default",
+    "migration_required": false,
+    "previous_provider": null
+  },
+  "design_library": {
+    "status": "RESOLUTION_REQUIRED",
+    "mode": "DIRECT_NUMBER",
+    "selector": {
+      "number": "188"
+    },
+    "known_design_count": 256,
+    "selected": {
+      "id": "188",
+      "category": "Esoterik & Achtsamkeit",
+      "name": "Nordic Light Spa",
+      "filename": "[188] [Esoterik & Achtsamkeit] – Nordic Light Spa.png"
+    },
+    "asset": {
+      "logical_path": "/[Chelonaki - The Quiet Author]/[Buchdesign]/[188] [Esoterik & Achtsamkeit] – Nordic Light Spa.png",
+      "sha256": "075d7dfd0436e45ec17e90feb394596b9708d37ebddbeaa7ab2aabcb9764ca4f",
+      "local_path": "/Users/eleftheriossamouladas/Library/CloudStorage/Dropbox/[Chelonaki - The Quiet Author]/[Buchdesign]/[188] [Esoterik & Achtsamkeit] – Nordic Light Spa.png"
+    },
+    "asset_verified": true,
+    "candidates": [],
+    "resolution_status": "ASSET_VERIFIED",
+    "user_input_complete": true,
+    "source": "chelonaki_book_design_library",
+    "brief": "Hochwertiges Wellnesshotel-Konzept STILL mit 15 Bildern und Reiseplaner",
+    "source_role": "PRIMARY_ART_DIRECTION",
+    "source_mutation": "forbidden",
+    "print_to_web_blueprint_required": true,
+    "premium_quality_floor_required": true
+  },
+  "visual_style": {
+    "catalog_version": "1.0.0",
+    "selected_systems": [],
+    "decision_template": "/[[MD Mastery]]/templates/visual-style-decision.template.yml",
+    "question_required": false,
+    "implementation_blocked": false,
+    "status": "CONFIRMED_REFERENCE_ART_DIRECTION"
+  },
+  "premium_web": {
+    "version": "1.0.0",
+    "status": "COMPILED_NOT_EXECUTED",
+    "owner": "web.one-sentence-premium-autopilot",
+    "director": "web.premium",
+    "brand_mode": "create",
+    "person_relevance": false,
+    "locales": [
+      "de"
+    ],
+    "workspace_profiles": [
+      "web_brand"
+    ],
+    "requirements": [
+      {
+        "id": "premium.workspace",
+        "owner": "customer.workspace"
+      },
+      {
+        "id": "premium.funnel",
+        "owner": "web.premium"
+      },
+      {
+        "id": "premium.scene_slots",
+        "owner": "web.premium"
+      },
+      {
+        "id": "premium.asset_integrity",
+        "owner": "web.premium"
+      },
+      {
+        "id": "premium.responsive_subjects",
+        "owner": "web.visual-taste"
+      },
+      {
+        "id": "premium.cinematic_continuity",
+        "owner": "web.visual-taste"
+      },
+      {
+        "id": "premium.scroll_bidirectional",
+        "owner": "web.motion"
+      },
+      {
+        "id": "premium.reduced_motion",
+        "owner": "web.accessibility"
+      },
+      {
+        "id": "premium.interaction_states",
+        "owner": "web.performance-conversion"
+      },
+      {
+        "id": "premium.conversion",
+        "owner": "web.performance-conversion"
+      },
+      {
+        "id": "premium.accessibility",
+        "owner": "web.accessibility"
+      },
+      {
+        "id": "premium.performance",
+        "owner": "web.performance-conversion"
+      },
+      {
+        "id": "premium.independent_review",
+        "owner": "web.visual-taste"
+      },
+      {
+        "id": "premium.rights_privacy",
+        "owner": "design.visual-qa"
+      },
+      {
+        "id": "premium.brand_delivery",
+        "owner": "design.brand-ci"
+      }
+    ],
+    "artifacts": {
+      "web_autopilot": ".masterbrain/web-autopilot.yml",
+      "web_design_dna": ".masterbrain/web-design-dna.yml",
+      "web_funnel": ".masterbrain/web-funnel.yml",
+      "scene_slot_contract": ".masterbrain/scene-slot-contract.yml",
+      "web_image_plan": ".masterbrain/web-image-plan.yml",
+      "web_image_manifest": ".masterbrain/web-image-manifest.yml",
+      "motion_budget": ".masterbrain/motion-budget.yml",
+      "brand": ".masterbrain/brand.yml"
+    },
+    "image_concepts": {
+      "target": [
+        10,
+        16
+      ],
+      "fewer_requires_narrative_reason": true,
+      "derivatives_count_as_concepts": false
+    },
+    "repair_rounds_per_finding": 2,
+    "execution_mode": "runner_required",
+    "activation_state": "NOT_VERIFIED",
+    "brief_state": "READY",
+    "input_fingerprint": "162bfbc49761cc4728cd977b48a39301ffc8e1ffa0307f69fd081fd59c2f0ef0"
+  },
+  "execution_contract_extension": {
+    "delivery_profile": "web.premium/1.0.0",
+    "premium_web": {
+      "version": "1.0.0",
+      "request": {
+        "brand_inventory": "absent",
+        "brief": "Hochwertiges Wellnesshotel-Konzept STILL mit 15 Bildern und Reiseplaner",
+        "customer_name": "Wellnesshotel",
+        "design_selection": {
+          "number": "188"
+        },
+        "locales": [
+          "de"
+        ],
+        "person_relevance": false,
+        "product_type": "website",
+        "release_requested": true,
+        "resolved_customer_root": "/Users/eleftheriossamouladas/Library/CloudStorage/Dropbox/[[KUNDEN]]/[Wellnesshotel]",
+        "request_id": "7398799d21d85278c6bc",
+        "visual_style_decision": "delegated_to_caf"
+      },
+      "input_fingerprint": "162bfbc49761cc4728cd977b48a39301ffc8e1ffa0307f69fd081fd59c2f0ef0",
+      "maker_id": null
+    },
+    "required_claim_ids": [
+      "premium.workspace",
+      "premium.funnel",
+      "premium.scene_slots",
+      "premium.asset_integrity",
+      "premium.responsive_subjects",
+      "premium.cinematic_continuity",
+      "premium.scroll_bidirectional",
+      "premium.reduced_motion",
+      "premium.interaction_states",
+      "premium.conversion",
+      "premium.accessibility",
+      "premium.performance",
+      "premium.independent_review",
+      "premium.rights_privacy",
+      "premium.brand_delivery"
+    ],
+    "merge_owner": "runtime.execution-contract",
+    "workspace_ready_before_durable_write": true
+  },
+  "customer_workspace": {
+    "status": "READY_TO_ENSURE",
+    "stable_id": "customer.workspace",
+    "contract_version": "3.2.0",
+    "contract": "/[[MD Mastery]]/factory/contracts/customer-workspace-v3.yml",
+    "integration": "/[[MD Mastery]]/factory/integration/customer-workspace.yml",
+    "module": "/[[MD Mastery]]/modules/147_CAF_CUSTOMER_WORKSPACE.md",
+    "planner_runtime": "/[[MD Mastery]]/factory/runtime/caf_customer_workspace.py",
+    "customer_identity": "Wellnesshotel",
+    "resolved_root": "/Users/eleftheriossamouladas/Library/CloudStorage/Dropbox/[[KUNDEN]]/[Wellnesshotel]",
+    "root_resolution_owner": "existing_caf_customer_root_resolver",
+    "required_root_folders": [
+      "[Bücher]",
+      "[Apps]",
+      "[Websites]",
+      "[Social Media]",
+      "[Ads]",
+      "[Logo]",
+      "[User Input]",
+      "[Profilbilder]"
+    ],
+    "required_nested_folders": {
+      "[Profilbilder]": [
+        "[Avatar]"
+      ]
+    },
+    "mutation": {
+      "mode": "ensure_on_customer_project_activation",
+      "idempotent": true,
+      "missing_only": true,
+      "preserve_existing": true,
+      "preserve_unknown_folders": true,
+      "move_existing_assets": false,
+      "rename_existing_assets": false,
+      "delete_unknown_assets": false,
+      "autorename": false,
+      "duplicate_folder_names": "forbidden"
+    },
+    "verification": {
+      "readback_required": true,
+      "exact_root_required": true,
+      "required_root_folder_count": 8,
+      "avatar_parent_must_be": "[Profilbilder]",
+      "mutation_receipt_required": true,
+      "workspace_ready_requires_verified_readback": true
+    },
+    "external_mutation_owner": "current_authorized_runner_connector",
+    "workspace_ready_before_durable_write": true,
+    "legacy_router_workspace_block": "compatibility_only"
+  },
+  "workspace_prerequisite": "customer.workspace",
+  "r12_extension_version": "1.4.0",
+  "markets": [],
+  "us_states": [],
+  "legal_trust_loaded": false,
+  "one_sentence_book_loaded": false,
+  "customer_workspace_loaded": true,
+  "engineering_compliance_is_not_legal_certification": true,
+  "search_intelligence_delegation": "R11.9_CANONICAL"
+}

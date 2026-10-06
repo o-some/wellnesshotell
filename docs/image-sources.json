@@ -1,0 +1,132 @@
+[
+  {
+    "id": "sauna",
+    "file": "sauna.webp",
+    "source_page": "https://unsplash.com/photos/interior-of-a-wooden-sauna-with-a-heater-Z80uS2A-IFw",
+    "source_image": "https://images.unsplash.com/photo-1770573319185-049b29ab0ca9?auto=format&fit=max&w=1800&q=85",
+    "license": "https://unsplash.com/license",
+    "dimensions": [
+      1200,
+      1800
+    ],
+    "role": "illustrative concept imagery, not actual hotel",
+    "bytes": 159590
+  },
+  {
+    "id": "bath",
+    "file": "bath.webp",
+    "source_page": "https://unsplash.com/photos/wooden-sauna-room-with-a-bathtub-and-slippers-jlB0JgWlAns",
+    "source_image": "https://images.unsplash.com/photo-1773423386509-b57f17224b30?auto=format&fit=max&w=1800&q=85",
+    "license": "https://unsplash.com/license",
+    "dimensions": [
+      1200,
+      1800
+    ],
+    "role": "illustrative concept imagery, not actual hotel",
+    "bytes": 175740
+  },
+  {
+    "id": "massage",
+    "file": "massage.webp",
+    "source_page": "https://unsplash.com/photos/a-woman-getting-a-back-massage-at-a-spa--AakIaAPV0w",
+    "source_image": "https://images.unsplash.com/photo-1639162906614-0603b0ae95fd?auto=format&fit=max&w=1800&q=85",
+    "license": "https://unsplash.com/license",
+    "dimensions": [
+      1200,
+      1800
+    ],
+    "role": "illustrative concept imagery, not actual hotel",
+    "bytes": 193700
+  },
+  {
+    "id": "breakfast",
+    "file": "breakfast.webp",
+    "source_page": "https://unsplash.com/photos/breakfast-spread-with-waffles-eggs-and-juice-hrlvr2ZlUNk",
+    "source_image": "https://images.unsplash.com/photo-1504754524776-8f4f37790ca0?auto=format&fit=max&w=1800&q=85",
+    "license": "https://unsplash.com/license",
+    "dimensions": [
+      1800,
+      1200
+    ],
+    "role": "illustrative concept imagery, not actual hotel",
+    "bytes": 453880
+  },
+  {
+    "id": "tea",
+    "file": "tea.webp",
+    "source_page": "https://unsplash.com/photos/a-cup-of-herbal-tea-with-mint-leaves-WcVLb9HIMrk",
+    "source_image": "https://images.unsplash.com/photo-1773479089546-49ff98325518?auto=format&fit=max&w=1800&q=85",
+    "license": "https://unsplash.com/license",
+    "dimensions": [
+      1200,
+      1800
+    ],
+    "role": "illustrative concept imagery, not actual hotel",
+    "bytes": 101444
+  },
+  {
+    "id": "forest",
+    "file": "forest.webp",
+    "source_page": "https://unsplash.com/photos/forest-pathway-GraajutbJHE",
+    "source_image": "https://images.unsplash.com/photo-1471513671800-b09c87e1497c?auto=format&fit=max&w=1800&q=85",
+    "license": "https://unsplash.com/license",
+    "dimensions": [
+      1800,
+      1200
+    ],
+    "role": "illustrative concept imagery, not actual hotel",
+    "bytes": 294244
+  },
+  {
+    "id": "lake",
+    "file": "lake.webp",
+    "source_page": "https://unsplash.com/photos/a-floating-sauna-sits-in-a-stunning-mountain-lake-iffjBg4Rjk8",
+    "source_image": "https://images.unsplash.com/photo-1751564804002-213d0409b13f?auto=format&fit=max&w=1800&q=85",
+    "license": "https://unsplash.com/license",
+    "dimensions": [
+      1800,
+      1350
+    ],
+    "role": "illustrative concept imagery, not actual hotel",
+    "bytes": 527156
+  },
+  {
+    "id": "room",
+    "file": "room.webp",
+    "source_page": "https://unsplash.com/photos/a-well-lit-hotel-room-with-seating-and-a-desk-xQbmc2FnK3Y",
+    "source_image": "https://images.unsplash.com/photo-1776763018821-8feeaeeee0a5?auto=format&fit=max&w=1800&q=85",
+    "license": "https://unsplash.com/license",
+    "dimensions": [
+      1800,
+      1200
+    ],
+    "role": "illustrative concept imagery, not actual hotel",
+    "bytes": 234402
+  },
+  {
+    "id": "room-sea",
+    "file": "room-sea.webp",
+    "source_page": "https://unsplash.com/photos/elegant-hotel-room-with-a-view-of-the-sea-3gdMevwmb1U",
+    "source_image": "https://images.unsplash.com/photo-1776876648949-63ccabf63b10?auto=format&fit=max&w=1800&q=85",
+    "license": "https://unsplash.com/license",
+    "dimensions": [
+      1305,
+      1800
+    ],
+    "role": "illustrative concept imagery, not actual hotel",
+    "bytes": 654276
+  },
+  {
+    "id": "room-studio",
+    "file": "room-studio.webp",
+    "source_page": "https://unsplash.com/photos/a-hotel-room-with-a-bed-desk-chairs-and-a-television-1EJXSLUfqU0",
+    "source_image": "https://images.unsplash.com/photo-1702014859878-5d4743176d28?auto=format&fit=max&w=1800&q=85",
+    "license": "https://unsplash.com/license",
+    "dimensions": [
+      1800,
+      1200
+    ],
+    "role": "illustrative concept imagery, not actual hotel",
+    "bytes": 190230
+  }
+]

@@ -1,0 +1,10 @@
+owner: 146
+business_context: Fictional hotel concept confirmed by user
+audience: German-speaking wellness travelers
+primary_conversion: Save local travel draft
+design_selector_input:
+  number: '188'
+person_relevance: false
+asset_requirement_summary:
+  distinct_concepts: 15
+delivery_constraints: GitHub Pages only, no Sites, noindex concept

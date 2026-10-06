@@ -1,0 +1,21 @@
+{
+  "status": "ASSET_VERIFIED",
+  "mode": "DIRECT_NUMBER",
+  "selector": {
+    "number": "188"
+  },
+  "known_design_count": 256,
+  "selected": {
+    "id": "188",
+    "category": "Esoterik & Achtsamkeit",
+    "name": "Nordic Light Spa",
+    "filename": "[188] [Esoterik & Achtsamkeit] – Nordic Light Spa.png"
+  },
+  "asset": {
+    "logical_path": "/[Chelonaki - The Quiet Author]/[Buchdesign]/[188] [Esoterik & Achtsamkeit] – Nordic Light Spa.png",
+    "sha256": "075d7dfd0436e45ec17e90feb394596b9708d37ebddbeaa7ab2aabcb9764ca4f",
+    "local_path": "/Users/eleftheriossamouladas/Library/CloudStorage/Dropbox/[Chelonaki - The Quiet Author]/[Buchdesign]/[188] [Esoterik & Achtsamkeit] – Nordic Light Spa.png"
+  },
+  "asset_verified": true,
+  "candidates": []
+}

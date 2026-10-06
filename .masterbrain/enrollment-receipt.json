@@ -1,0 +1,9 @@
+{
+  "status": "CONTRACT_ENROLLED",
+  "contract_revision": 1,
+  "contract_status": "ACTIVE",
+  "contract_sha256": "d81183eb88b18e0bacdcf835f9674db980a3debdfe5848b99b762d975efc9b99",
+  "workspace_status": "WORKSPACE_READY",
+  "backup": "/Users/eleftheriossamouladas/Library/CloudStorage/Dropbox/[[KUNDEN]]/[Wellnesshotel]/[Websites]/wellnesshotell/.masterbrain/runtime-backups/execution-contract.613f3ab18b849b5e789dba9a9717836008a4f5757c661563f38a2b7ed3ca32fb.yml",
+  "workflow_or_review_promoted": false
+}
